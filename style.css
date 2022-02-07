@@ -1,0 +1,11 @@
+@font-face{font-family:nunito;src:url('fonts/Nunito-Regular.ttf');} 
+a:link{color:lightcoral;background-color:transparent;text-decoration:none;}
+a:visited{color:lightcoral;background-color:transparent;text-decoration:none;}
+a:hover{color:lightcoral;background-color:transparent;text-decoration:underline;}
+a:active{color:red;background-color:transparent;text-decoration:underline;}
+table,th,td{border:15px solid black;border-collapse:collapse;text-align:center;}
+.h1{text-align:center;color:red}
+.h2{color:yellowgreen}
+.h3{color:darkcyan}
+.warning{color:orange}
+.inverse{filter:invert(100%);-webkit-filter:invert(100%);}
