@@ -1,0 +1,440 @@
+<html>
+	<head>
+		<title>GeoGuessr - MarioSwitch</title>
+		<link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/dmWhVeb.png">
+		<link rel="stylesheet" href="style.css">
+        <style>
+            table,th,td{margin:0px 10px;padding:5px;border:2px solid white;border-collapse:collapse;text-align:center}
+        </style>
+	</head>
+	<body>
+		<h1>GeoGuessr</h1>
+		<p>
+            <a href="https://www.geoguessr.com">GeoGuessr</a> est un jeu de géographie consistant à retrouver, sur la carte du monde, sa localisation à partir de panoramas <a href="https://fr.wikipedia.org/wiki/Google_Street_View">Google StreetView</a> (ou <a href="https://fr.wikipedia.org/wiki/Mapillary">Mapillary</a> pour la <a href="https://www.geoguessr.com/free">version gratuite</a>).<br>
+            Les panneaux routiers et publicitaires, la langue, le paysage ou tout autre indice à l'écran permettent de déterminer cet endroit.<br>
+            Il existe énormément de modes de jeux (ceux-ci seront listés et détaillés ci-dessous).<br>
+            Le jeu étant régulièrement mis à jour, certaines informations peuvent avoir évolué depuis l'écriture de cette page.<br>
+            Si vous détectez une erreur ou un contenu manquant, n'hésitez pas à le signaler <a href="https://github.com/MarioSwitch/marioswitch.github.io/issues">ici</a> en utilisant le label "Page : GeoGuessr".
+        </p>
+        <br>
+        <h2>Organisation du site</h2>
+        <p>
+            Le site se décompose en 4 parties principales :
+            <ul>
+                <li><b><ins>Accueil (Home) :</ins></b> Page d'accueil permettant d'accéder à différents modes de jeu ainsi que certaines cartes.</li>
+                <li><b><ins>Carrière (Career) :</ins></b> Page permettant de jouer seul contre d'autres personnes en ligne aux modes Battle Royale, Séries (Streaks) et Duels.</li>
+                <li><b><ins>Jouer entre amis (Play with friends) :</ins></b> Page permettant de créer des "parties" et jouer entre amis aux modes Battle Royale, Séries (Streaks), Duels et Bulls Eye. Cependant, un de vos amis doit avoir un compte Pro afin de lancer les parties.</li>
+                <li><b><ins>Classique (Classic) :</ins></b> Page permettant de jouer aux modes exploration (Explorer Mode), Séries (Streaks), défi du jour (Daily Challenge), créer des cartes (Map Maker) (Pro uniquement) et créer des leagues (Pro uniquement).</li>
+            </ul>
+        </p>
+        <br>
+        <h2>Modes de jeu</h2>
+        <h3>Normal</h3>
+        <p>
+            Ce mode est celui joué lors de l'exploration, du défi du jour, des ligues (Pro) ainsi que des cartes personnalisées.<br>
+            <br>
+            Il consiste à retrouver 5 emplacements choisis aléatoirement dans une zone délimitée (le Monde, un pays ou une région particulière, etc.) ou parmi un panel créé manuellement (pour les cartes personnalisées).<br>
+            Chaque emplacement peut rapporter jusqu'à 5 000 points, pour un total de 25 000 points.<br>
+            Le nombre de points est déterminé en fonction de la distance entre l'emplacement réel et l'emplacement choisi. Plus la distance est faible, plus le nombre de points est important.<br>
+            Le barème dépend aussi de la taille de la zone délimitée : plus la zone est grande, plus le barème est "souple" (distance plus grande pour le même nombre de points).<br>
+            <br>
+            Pour le mode exploration et le défi du jour, une médaille est attribuée selon le barème suivant : Bronze à partir de 5 000 points, Argent à partir de 15 000 points et Or à partir de 22 500 points.
+        </p>
+        <br>
+        <h3>Séries (Streaks)</h3>
+        <p>
+            Ce mode peut être joué en solo, entre amis ou en ligne contre des autres joueurs. Il se divise en 2 types :<br>
+            <br>
+            Le mode Série de pays (Country Streaks) consiste à trouver <b>uniquement</b> le <abbr title="Certaines frontières étant discutées, certaines zones ne peuvent pas être sélectionnés (Taïwan, Palestine,...). Il est donc impossible de tomber dans ces pays dans ce mode de jeu.">pays</abbr> dans lequel l'emplacement se trouve.<br>
+            A chaque bonne réponse, le score augmente de 1 et un nouvel emplacement est choisi.<br>
+            Il n'y a donc pas de limite de score. Cependant, dès qu'une mauvaise réponse est donnée, la partie s'arrête.<br>
+            <br>
+            Dans le mode Série d'États Américains (US State Streaks), les emplacements possibles sont limités aux États-Unis.<br>
+            Cependant, il faut trouver l'État dans lequel l'emplacement se trouve.<br>
+            Le score est comptabilisé de la même manière que pour la Série de pays.<br>
+            <br>
+            Dans ces deux modes, une médaille est attribuée selon le score obtenu.
+        </p>
+        <br>
+        <h3>Battle Royale</h3>
+        <p>
+            Ce mode peut être joué entre amis ou en ligne, de 2 à 10 personnes. Il se divise également en 2 types :<br>
+            <br>
+            La "Battle Royale Countries" consiste à deviner le pays de l'emplacement tiré au sort en un minimum de tentatives et en un temps limité.<br>
+            A chaque bonne réponse, vous vous qualifiez pour la manche suivante. Les autres joueurs verront que vous êtes qualifiés mais ne sauront pas quel pays est correct.<br>
+            A chaque mauvaise réponse, vous perdez une vie et les autres joueurs verront votre tentative (ils sauront donc que ce n'est pas le pays que vous avez validé).<br>
+            Si vous n'avez plus de vies, vous êtes disqualifié et avez perdu. Si personne ne trouve dans le temps imparti, les joueurs de la manche précédente peuvent rejouer.<br>
+            Si un seul joueur trouve, la partie se termine et le joueur ayant trouvé remporte la partie.<br>
+            Lors de la 1<sup>re</sup> partie, les 10 joueurs peuvent se qualifier. Cependant, à partir de la 2<sup>e</sup> manche, il y a une place en moins. La partie peut donc durer jusqu'à 9 manches.<br>
+            S'il y a plus de joueurs que de places, dès que toutes les places sont remplies, le dernier joueur est automatiquement disqualifié, même s'il n'a pas perdu toutes ses vies.<br>
+            <br>
+            La "Battle Royale Distance" consiste à avoir le point de le plus proche de l'emplacement réel en un minimum de tentatives et en un temps limité.<br>
+            Ici, il n'y a donc pas de bonne ou de mauvaise réponse mais seulement un classement qui ordonne les joueurs selon leur écart avec le vrai emplacement.<br>
+            L'affichage sur la droite de l'écran indique votre classement ainsi que 2 distances. Celle au-dessus de vous indique l'écart de distance entre votre écart et celui devant vous. Celle en-dessous de vous indique l'écart entre votre écart et celui derrière vous.<br>
+            A la fin d'une manche, le joueur étant le plus loin de la position réelle est éliminé. Les autres joueurs récupèrent 1 tentative (par défaut) ou plus (si leur point est dans le bon pays, assez proche, etc.).<br>
+            Dans ce mode, à chaque placement et validation d'un point, vous perdez une tentative. Il vaut donc mieux économiser les tentatives au début (quite à être dans les derniers) pour pouvoir ensuite faire plus de tentatives pour se rapprocher au mieux du point exact.
+        </p>
+        <br>
+        <h3>Série de villes (City Streak)</h3>
+        <p>
+            Ce mode peut être joué entre amis ou en ligne.<br>
+            <br>
+            Ici, l'emplacement choisi est toujours dans une ville et un panel de villes possibles est affiché sur la carte de sélection.<br>
+            Dans ces parties, l'objectif est de trouver un maximum de villes possibles dans un laps de temps limité.<br>
+            A chaque mauvaise réponse, une vie vous est retiré. Quand vous n'avez plus de vies, votre score redescend au dernier "checkpoint".
+        </p>
+        <br>
+        <h3>Duels</h3>
+        <p>
+            Ce mode peut être joué entre amis ou en ligne (que les duels 1v1). Il se divise, encore une fois, en 2 types :<br>
+            <br>
+            Les "Duels" (1 contre 1) ont pour but d'affronter un autre joueur en ligne.<br>
+            Chaque joueur commence avec 6 000 PV. A chaque manche, le joueur le plus proche de l'emplacement exact inflige des dégâts à son adversaire.<br>
+            Ces dégâts correspondent à la différence entre les points de chaque joueur. Les points sont calculés de la même façon qu'en mode normal.<br>
+            Le joueur perdant tous ses PV en premier fait gagner son adversaire.<br>
+            Les 4 premières manches se déroulent normalement. La 5<sup>e</sup> manche est une manche bonus : les points récupérés lors de celle-ci sont divisés par 2 avant d'être ajoutés aux PV respectifs de chaque joueur. A partir de la 6<sup>e</sup> manche, les dégâts sont doublés puis triplés, quadruplés, etc. jusqu'à ce qu'un joueur perde.<br>
+            <br>
+            Les "Team Duels" (jusqu'à 20 joueurs) se déroulent de la même manière que les duels classiques mais en équipe. Il y a tout de même quelques changements :<br>
+            Les équipes peuvent être déséquilibrées : vous pouvez aussi bien jouer à 10 contre 10 qu'à 19 contre 1.<br>
+            Chaque joueur peut faire sa proposition mais seule la meilleure de chaque équipe compte. Le système de points est ensuite calqué sur les duels classiques.<br>
+            Il n'y a pas de manche bonus et les manches compte double, triple, etc. commencent dès la 4<sup>e</sup> manche.
+        </p>
+        <br>
+        <h3>Bulls Eye</h3>
+        <p>
+            Ce mode ne peut être joué qu'entre amis (de 2 à 6 joueurs). C'est un mode coopératif.<br>
+            <br>
+            Le principe est simple : obtenir le plus de points possible en 5 manches. Le maximum est de 25 000 points.<br>
+            Pour ce faire, tous les joueurs doivent s'unir afin de trouver le maximum d'indices. Ils peuvent, par exemple, se téléporter aux autres.<br>
+            A chaque manche, chaque joueur peut poser un cercle de diamètre au choix (parmi Ultra (~3 000 km, 500 pts), Large (~1 000 km, 1000 pts), Medium (~350 km, 2000 pts), Small (~130 km, 3000 pts), Mini (~40 km, 4000 pts) et Bulls-Eye (~600 m, 5000 pts)).<br>
+            En validant, le cercle devient vert si l'emplacement se situe à l'intérieur de celui-ci ou rouge s'il se situe à l'extérieur. En ayant cette information, les autres joueurs peuvent adapter leur proposition.<br>
+            Une fois les cercles de tous les joueurs posés, le cercle vert le plus précis donne son nombre de points à la manche en cours.<br>
+        </p>
+        <br>
+        <h2>Niveaux et rangs</h2>
+        <h3>Niveaux</h3>
+        <p>
+            Dans ce jeu (et comme dans beaucoup d'autres), il y a un système de niveaux commun à tous les modes (sauf entre amis).<br>
+            Pour monter de niveau, il faut accumuler des points d'expérience en jouant à n'importe quel mode (sauf entre amis). Cela inclus le mode classique et carrière.<br>
+            En foction de votre niveau, un "grade" et un cadre est attribué à votre profil.<br>
+        </p>
+        <br>
+        <h3>Rangs</h3>
+        <p>
+            Les rangs sont présents dans le mode Carrière (c'est-à-dire en ligne contre les autres joueurs du monde entier).<br>
+            Ils représentent votre niveau dans les 3 modes en ligne (Battle Royale, Streaks et Duels 1v1).<br>
+            En fonction de vos rangs, une icône et un grade est attribué à chaque style de jeu.<br>
+        </p>
+        <br>
+        <h3>Tableaux détaillés</h3>    
+            <table style="float:left">
+                <tr>
+                    <th>Niveau</td>
+                    <th>Grade</th>
+                    <th><b>Cadre</th>
+                </tr>
+                <tr>
+                    <td>1-3</td>
+                    <td><i>Rookie Tourist</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-10.png" alt="Cadre Niveaux 1-10" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>4-6</td>
+                    <td><i>Tourist</i></td>
+                </tr>
+                <tr>
+                    <td>7-10</td>
+                    <td><i>Master Tourist</i></td>
+                </tr>
+                <tr>
+                    <td>11-13</td>
+                    <td><i>Rookie Hiker</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-20.png" alt="Cadre Niveaux 11-20" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>14-16</td>
+                    <td><i>Hiker</i></td>
+                </tr>
+                <tr>
+                    <td>17-20</td>
+                    <td><i>Master Hiker</i></td>
+                </tr>
+                <tr>
+                    <td>21-23</td>
+                    <td><i>Rookie Traveller</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-30.png" alt="Cadre Niveaux 21-30" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>24-26</td>
+                    <td><i>Traveller</i></td>
+                </tr>
+                <tr>
+                    <td>27-30</td>
+                    <td><i>Master Traveller</i></td>
+                </tr>
+                <tr>
+                    <td>31-33</td>
+                    <td><i>Rookie Seeker</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-40.png" alt="Cadre Niveaux 31-40" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>34-36</td>
+                    <td><i>Seeker</i></td>
+                </tr>
+                <tr>
+                    <td>37-40</td>
+                    <td><i>Master Seeker</i></td>
+                </tr>
+                <tr>
+                    <td>41-43</td>
+                    <td><i>Rookie Voyager</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-50.png" alt="Cadre Niveaux 41-50" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>44-46</td>
+                    <td><i>Voyager</i></td>
+                </tr>
+                <tr>
+                    <td>47-50</td>
+                    <td><i>Master Voyager</i></td>
+                </tr>
+                <tr>
+                    <td>51-53</td>
+                    <td><i>Rookie Expeditioner</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-60.png" alt="Cadre Niveaux 51-60" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>54-56</td>
+                    <td><i>Expeditioner</i></td>
+                </tr>
+                <tr>
+                    <td>57-60</td>
+                    <td><i>Master Expeditioner</i></td>
+                </tr>
+                <tr>
+                    <td>61-63</td>
+                    <td><i>Rookie Pathfinder</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-70.png" alt="Cadre Niveaux 61-70" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>64-66</td>
+                    <td><i>Pathfinder</i></td>
+                </tr>
+                <tr>
+                    <td>67-70</td>
+                    <td><i>Master Pathfinder</i></td>
+                </tr>
+                <tr>
+                    <td>71-73</td>
+                    <td><i>Rookie Trailblazer</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-80.png" alt="Cadre Niveaux 71-80" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>74-76</td>
+                    <td><i>Trailblazer</i></td>
+                </tr>
+                <tr>
+                    <td>77-80</td>
+                    <td><i>Master Trailblazer</i></td>
+                </tr>
+                <tr>
+                    <td>81-83</td>
+                    <td><i>Rookie Globetrotter</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-90.png" alt="Cadre Niveaux 81-90" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>84-86</td>
+                    <td><i>Globetrotter</i></td>
+                </tr>
+                <tr>
+                    <td>87-90</td>
+                    <td><i>Master Globetrotter</i></td>
+                </tr>
+                <tr>
+                    <td>91-93</td>
+                    <td><i>Rookie Explorer</i></td>
+                    <td rowspan="3"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-100.png" alt="Cadre Niveaux 91-100" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>94-96</td>
+                    <td><i>Explorer</i></td>
+                </tr>
+                <tr>
+                    <td>97-100</td>
+                    <td><i>Master Explorer</i></td>
+                </tr>
+                <tr>
+                    <td>101-110</td>
+                    <td><i>Master Explorer Pro</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-110.png" alt="Cadre Niveaux 101-110" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>111-120</td>
+                    <td><i>Master Explorer Supreme</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-120.png" alt="Cadre Niveaux 111-120" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>121-130</td>
+                    <td><i>Master Explorer Elite</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-130.png" alt="Cadre Niveaux 121-130" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>131-140</td>
+                    <td><i>Supreme Explorer</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-140.png" alt="Cadre Niveaux 131-140" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>141-150</td>
+                    <td><i>Supreme Explorer Pro</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-150.png" alt="Cadre Niveaux 141-150" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>151-160</td>
+                    <td><i>Supreme Explorer Elite</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-160.png" alt="Cadre Niveaux 151-160" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>161-170</td>
+                    <td><i>Ultimate Explorer</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-170.png" alt="Cadre Niveaux 161-170" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>171-180</td>
+                    <td><i>Ultimate Explorer Pro</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-180.png" alt="Cadre Niveaux 171-180" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>181-190</td>
+                    <td><i>Ultimate Explorer Supreme</i></td>
+                    <td><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-190.png" alt="Cadre Niveaux 181-190" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>191-200</td>
+                    <td><i>Ultimate Explorer Elite</i></td>
+                    <td rowspan="2"><img src="https://www.geoguessr.com/static/avatars/tiers/low-quality/tier-200.png" alt="Cadre Niveaux 191+" width="100px" height="100px"></td>
+                </tr>
+                <tr>
+                    <td>201+</td>
+                    <td><i>Ultimate Master Explorer</i></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Rang</th>
+                    <th>Grade</th>
+                    <th>Icône</th>
+                </tr>
+                <tr>
+                    <td>1-3</td>
+                    <td><i>Street Division Tier IV</i></td>
+                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/street-b6dee8af59d74f420dc8f84894d0ca59.png" alt="Icône Street Division" height="100px" width="100px"></td>
+                </tr>
+                <tr>
+                    <td>4-7</td>
+                    <td><i>Street Division Tier III</i></td>
+                </tr>
+                <tr>
+                    <td>8-11</td>
+                    <td><i>Street Division Tier II</i></td>
+                </tr>
+                <tr>
+                    <td>12-14</td>
+                    <td><i>Street Division Tier I</i></td>
+                </tr>
+                <tr>
+                    <td>15-21</td>
+                    <td><i>Town Division Tier IV</i></td>
+                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/town-29c857677b7e6dbb58812dc564c900b7.png" alt="Icône Town Division" height="100px" width="100px"></td>
+                </tr>
+                <tr>
+                    <td>22-27</td>
+                    <td><i>Town Division Tier III</i></td>
+                </tr>
+                <tr>
+                    <td>28-33</td>
+                    <td><i>Town Division Tier II</i></td>
+                </tr>
+                <tr>
+                    <td>34-39</td>
+                    <td><i>Town Division Tier I</i></td>
+                </tr>
+                <tr>
+                    <td>40-47</td>
+                    <td><i>City Division Tier IV</i></td>
+                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/city-f6e39640017a929568308bead4134fc3.png" alt="Icône City Division" height="100px" width="100px"></td>
+                </tr>
+                <tr>
+                    <td>48-55</td>
+                    <td><i>City Division Tier III</i></td>
+                </tr>
+                <tr>
+                    <td>56-62</td>
+                    <td><i>City Division Tier II</i></td>
+                </tr>
+                <tr>
+                    <td>63-69</td>
+                    <td><i>City Division Tier I</i></td>
+                </tr>
+                <tr>
+                    <td>70-73</td>
+                    <td><i>Metropolitan Division Tier IV</i></td>
+                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/metropolitan-49d6a008591ba5b473ddd1b9bcd300c8.png" alt="Icône Metropolitan Division" height="100px" width="100px"></td>
+                </tr>
+                <tr>
+                    <td>74-77</td>
+                    <td><i>Metropolitan Division Tier III</i></td>
+                </tr>
+                <tr>
+                    <td>78-81</td>
+                    <td><i>Metropolitan Division Tier II</i></td>
+                </tr>
+                <tr>
+                    <td>82-84</td>
+                    <td><i>Metropolitan Division Tier I</i></td>
+                </tr>
+                <tr>
+                    <td>85-87</td>
+                    <td><i>Continental Division Tier IV</i></td>
+                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/continental-d8fae09ac7711b8077e689d7992a081f.png" alt="Icône Continental Division" height="100px" width="100px"></td>
+                </tr>
+                <tr>
+                    <td>88-90</td>
+                    <td><i>Continental Division Tier III</i></td>
+                </tr>
+                <tr>
+                    <td>91-92</td>
+                    <td><i>Continental Division Tier II</i></td>
+                </tr>
+                <tr>
+                    <td>93-94</td>
+                    <td><i>Continental Division Tier I</i></td>
+                </tr>
+                <tr>
+                    <td>95-96</td>
+                    <td><i>Global Division Tier IV</i></td>
+                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/global-7f65e7dcb40f4e363efd5427249841fe.png" alt="Icône Global Division" height="100px" width="100px"></td>
+                </tr>
+                <tr>
+                    <td>97</td>
+                    <td><i>Global Division Tier III</i></td>
+                </tr>
+                <tr>
+                    <td>98</td>
+                    <td><i>Global Division Tier II</i></td>
+                </tr>
+                <tr>
+                    <td>99-100</td>
+                    <td><i>Global Division Tier I</i></td>
+                </tr>
+            </table>
+        <br style="clear:both">
+        <br>
+        <h2>Sources & références</h2>
+        <ul>
+            <li><a href="https://www.geoguessr.com">GeoGuessr</a></li>
+            <li><a href="https://geoguessr.zendesk.com/hc/en-us">Forum GeoGuessr</a></li>
+            <li><a href="https://www.reddit.com/r/geoguessr/">Reddit GeoGuessr</a></li>
+            <li><a href="https://somerandomstuff1.wordpress.com/2019/02/08/geoguessr-the-top-tips-tricks-and-techniques/">Blog personnel (en anglais)</a></li>
+        </ul>
+	</body>
+</html>

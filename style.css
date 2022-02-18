@@ -3,6 +3,7 @@ body{font-family:nunito;background-color:black;color:white}
 h1{color:red;text-align:center;text-decoration:underline}
 h2{color:yellowgreen}
 h3{color:darkcyan}
+abbr{cursor:help}
 .warning{color:orange}
 .inverse{filter:invert(100%);-webkit-filter:invert(100%)}
 a:link{color:lightcoral;background-color:transparent;text-decoration:none}
