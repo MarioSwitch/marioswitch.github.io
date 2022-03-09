@@ -6,6 +6,7 @@
 	</head>
 	<body>
 		<h1>GeoGuessr</h1>
+        <h2 class="warning">Suite à l'ajout du mode compétitif, cette page est en cours d'actualisation.</h2>
 		<p>
             <a href="https://www.geoguessr.com">GeoGuessr</a> est un jeu de géographie consistant à retrouver, sur la carte du monde, sa localisation à partir de panoramas <a href="https://fr.wikipedia.org/wiki/Google_Street_View">Google StreetView</a> (ou <a href="https://fr.wikipedia.org/wiki/Mapillary">Mapillary</a> pour la <a href="https://www.geoguessr.com/free">version gratuite</a>).<br>
             Les panneaux routiers et publicitaires, la langue, le paysage ou tout autre indice à l'écran permettent de déterminer cet endroit.<br>
@@ -19,7 +20,7 @@
             Le site se décompose en 4 parties principales :
             <ul>
                 <li><b><ins>Accueil (Home) :</ins></b> Page d'accueil permettant d'accéder à différents modes de jeu ainsi que certaines cartes.</li>
-                <li><b><ins>Carrière (Career) :</ins></b> Page permettant de jouer seul contre d'autres personnes en ligne aux modes Battle Royale, Séries (Streaks) et Duels.</li>
+                <li><b><ins>Compétitif (Competitive) :</ins></b> Page permettant de jouer seul contre d'autres personnes en ligne aux modes Battle Royale et Duels.</li>
                 <li><b><ins>Jouer entre amis (Play with friends) :</ins></b> Page permettant de créer des "parties" (jusqu'à 100 personnes) et jouer entre amis aux modes Battle Royale, Séries (Streaks), Duels, Bulls Eye et Live Challenges. Cependant, un de vos amis doit avoir un compte Pro afin de lancer les parties.</li>
                 <li><b><ins>Classique (Classic) :</ins></b> Page permettant de jouer aux modes exploration (Explorer Mode), Séries (Streaks), défi du jour (Daily Challenge), créer des cartes (Map Maker) (Pro uniquement) et créer des leagues (Pro uniquement).</li>
             </ul>
@@ -40,7 +41,7 @@
         <br>
         <h3>Séries (Streaks)</h3>
         <p>
-            Ce mode peut être joué en solo, entre amis ou en ligne contre des autres joueurs. Il se divise en 2 types :<br>
+            Ce mode peut être joué en solo ou entre amis. Il se divise en 2 types :<br>
             <br>
             Le mode Série de pays (Country Streaks) consiste à trouver <b>uniquement</b> le <abbr title="Certaines frontières étant discutées, certaines zones ne peuvent pas être sélectionnés (Taïwan, Palestine,...). Il est donc impossible de tomber dans ces pays dans ce mode de jeu.">pays</abbr> dans lequel l'emplacement se trouve.<br>
             A chaque bonne réponse, le score augmente de 1 et un nouvel emplacement est choisi.<br>
@@ -74,7 +75,7 @@
         <br>
         <h3>Série de villes (City Streak)</h3>
         <p>
-            Ce mode peut être joué entre amis ou en ligne.<br>
+            Ce mode ne peut être joué qu'entre amis.<br>
             <br>
             Ici, l'emplacement choisi est toujours dans une ville et un panel de villes possibles est affiché sur la carte de sélection.<br>
             Dans ces parties, l'objectif est de trouver un maximum de villes possibles dans un laps de temps limité.<br>
@@ -118,7 +119,10 @@
             Les joueurs ayant déjà validé leur proposition peuvent regarder les autres joueurs et voir le temps restant en attendant la manche suivante.<br>
         </p>
         <br>
-        <h2>Niveaux et rangs</h2>
+        <h2>Organisation du mode compétitif</h2>
+        <h3 class="warning">Cette section est en cours d'écriture.</h3>
+        <br>
+        <h2>Niveaux et notation</h2>
         <h3>Niveaux</h3>
         <p>
             Dans ce jeu (et comme dans beaucoup d'autres), il y a un système de niveaux commun à tous les modes (sauf entre amis).<br>
@@ -126,11 +130,11 @@
             En foction de votre niveau, un "grade" et un cadre est attribué à votre profil.<br>
         </p>
         <br>
-        <h3>Rangs</h3>
+        <h3>Notation en ligne (Rating)</h3>
         <p>
-            Les rangs sont présents dans le mode Carrière (c'est-à-dire en ligne contre les autres joueurs du monde entier).<br>
-            Ils représentent votre niveau dans les 3 modes en ligne (Battle Royale, Streaks et Duels 1v1).<br>
-            En fonction de vos rangs, une icône et un grade est attribué à chaque style de jeu.<br>
+            La notation en ligne est un score visible dans l'onglet compétitif.<br>
+            Il représente votre niveau dans les 3 modes en ligne (Battle Royale (Countries et Distance) et Duels 1v1).<br>
+            En fonction de votre notation, une icône et une division vous est attribué.<br>
         </p>
         <br>
         <h3>Tableaux détaillés</h3>    
@@ -327,111 +331,29 @@
             </table>
             <table class="table-visible">
                 <tr>
-                    <th>Rang</th>
-                    <th>Grade</th>
+                    <th>Notation</th>
+                    <th>Division</th>
                     <th>Icône</th>
                 </tr>
                 <tr>
-                    <td>1-3</td>
-                    <td><i>Street Division Tier IV</i></td>
-                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/street-b6dee8af59d74f420dc8f84894d0ca59.png" alt="Icône Street Division" width="100px" height="100px"></td>
+                    <td>0-450</td>
+                    <td>Bronze</td>
+                    <td><img src="https://www.geoguessr.com/_next/static/images/rating-bronze-08009691512faa0c265b01743ff053c0.png" alt="Division Bronze" width="100px" height="100px"></td>
                 </tr>
                 <tr>
-                    <td>4-7</td>
-                    <td><i>Street Division Tier III</i></td>
+                    <td></td>
+                    <td>Argent</td>
+                    <td><img src="https://www.geoguessr.com/_next/static/images/rating-silver-c453660f9df60c05c4cd1c6aba036330.png" alt="Division Argent" width="100px" height="100px"></td>
                 </tr>
                 <tr>
-                    <td>8-11</td>
-                    <td><i>Street Division Tier II</i></td>
+                    <td></td>
+                    <td>Or</td>
+                    <td><img src="https://www.geoguessr.com/_next/static/images/rating-gold-b25d049413b602382076513251586849.png" alt="Division Or" width="100px" height="100px"></td>
                 </tr>
                 <tr>
-                    <td>12-14</td>
-                    <td><i>Street Division Tier I</i></td>
-                </tr>
-                <tr>
-                    <td>15-21</td>
-                    <td><i>Town Division Tier IV</i></td>
-                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/town-29c857677b7e6dbb58812dc564c900b7.png" alt="Icône Town Division" width="100px" height="100px"></td>
-                </tr>
-                <tr>
-                    <td>22-27</td>
-                    <td><i>Town Division Tier III</i></td>
-                </tr>
-                <tr>
-                    <td>28-33</td>
-                    <td><i>Town Division Tier II</i></td>
-                </tr>
-                <tr>
-                    <td>34-39</td>
-                    <td><i>Town Division Tier I</i></td>
-                </tr>
-                <tr>
-                    <td>40-47</td>
-                    <td><i>City Division Tier IV</i></td>
-                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/city-f6e39640017a929568308bead4134fc3.png" alt="Icône City Division" width="100px" height="100px"></td>
-                </tr>
-                <tr>
-                    <td>48-55</td>
-                    <td><i>City Division Tier III</i></td>
-                </tr>
-                <tr>
-                    <td>56-62</td>
-                    <td><i>City Division Tier II</i></td>
-                </tr>
-                <tr>
-                    <td>63-69</td>
-                    <td><i>City Division Tier I</i></td>
-                </tr>
-                <tr>
-                    <td>70-73</td>
-                    <td><i>Metropolitan Division Tier IV</i></td>
-                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/metropolitan-49d6a008591ba5b473ddd1b9bcd300c8.png" alt="Icône Metropolitan Division" width="100px" height="100px"></td>
-                </tr>
-                <tr>
-                    <td>74-77</td>
-                    <td><i>Metropolitan Division Tier III</i></td>
-                </tr>
-                <tr>
-                    <td>78-81</td>
-                    <td><i>Metropolitan Division Tier II</i></td>
-                </tr>
-                <tr>
-                    <td>82-84</td>
-                    <td><i>Metropolitan Division Tier I</i></td>
-                </tr>
-                <tr>
-                    <td>85-87</td>
-                    <td><i>Continental Division Tier IV</i></td>
-                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/continental-d8fae09ac7711b8077e689d7992a081f.png" alt="Icône Continental Division" width="100px" height="100px"></td>
-                </tr>
-                <tr>
-                    <td>88-90</td>
-                    <td><i>Continental Division Tier III</i></td>
-                </tr>
-                <tr>
-                    <td>91-92</td>
-                    <td><i>Continental Division Tier II</i></td>
-                </tr>
-                <tr>
-                    <td>93-94</td>
-                    <td><i>Continental Division Tier I</i></td>
-                </tr>
-                <tr>
-                    <td>95-96</td>
-                    <td><i>Global Division Tier IV</i></td>
-                    <td rowspan="4"><img src="https://www.geoguessr.com/_next/static/images/global-7f65e7dcb40f4e363efd5427249841fe.png" alt="Icône Global Division" width="100px" height="100px"></td>
-                </tr>
-                <tr>
-                    <td>97</td>
-                    <td><i>Global Division Tier III</i></td>
-                </tr>
-                <tr>
-                    <td>98</td>
-                    <td><i>Global Division Tier II</i></td>
-                </tr>
-                <tr>
-                    <td>99-100</td>
-                    <td><i>Global Division Tier I</i></td>
+                    <td></td>
+                    <td>Maître</td>
+                    <td><img src="https://www.geoguessr.com/_next/static/images/rating-master-82ce69adbf6dabdd408f8ccd2e7befe8.png" alt="Division Maître" width="100px" height="100px"></td>
                 </tr>
             </table>
         <br>
