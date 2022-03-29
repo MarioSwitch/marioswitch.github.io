@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <script src="clock.js"></script>
+    <title>Heures UTC et France - MarioSwitch</title>
+</head>
+<body onload="clock();">
+    <div id="UTCdiv">
+        <h1>Heure UTC</h1>
+        <span class="clocks" id="UTCclock"></span>
+    </div>
+    <div id="FRdiv">
+        <h1>Heure en France (UTC+2)</h1>
+        <span class="clocks" id="FRclock"></span>
+        <p>L'heure affichée est valable jusqu'au passage à l'heure d'hiver (le dimanche 30 octobre 2022 à 03:00).</p>
+    </div>
+    <p style="position: absolute;bottom:0;"><b>Note :</b> Dû à la construction du fichier JS (permettant de mettre à jour les horloges), les secondes peuvent être inexactes (à moins d'une seconde près).</p>
+</body>
+</html>
