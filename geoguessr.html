@@ -6,23 +6,23 @@
 	</head>
 	<body>
 		<h1>GeoGuessr</h1>
-        <h2 class="warning">GeoGuessr a été mis à jour récemment (ajoutant les quiz). Cette page sera mise à jour dans les prochains jours.</h2>
 		<p>
             <a href="https://www.geoguessr.com">GeoGuessr</a> est un jeu de géographie consistant à retrouver, sur la carte du monde, sa localisation à partir de panoramas <a href="https://fr.wikipedia.org/wiki/Google_Street_View">Google StreetView</a> (ou <a href="https://fr.wikipedia.org/wiki/Mapillary">Mapillary</a> pour la <a href="https://www.geoguessr.com/free">version gratuite</a>).<br>
             Les panneaux routiers et publicitaires, la langue, le paysage ou tout autre indice à l'écran permettent de déterminer cet endroit.<br>
             Il existe énormément de modes de jeux (ceux-ci seront listés et détaillés ci-dessous).<br>
-            Le jeu étant régulièrement mis à jour, certaines informations peuvent avoir évolué depuis l'écriture de cette page.<br>
+            Le jeu étant régulièrement mis à jour, certaines informations peuvent avoir évolué depuis la dernière révision de cette page.<br>
             Si vous détectez une erreur ou un contenu manquant, n'hésitez pas à le signaler <a href="https://github.com/MarioSwitch/marioswitch.github.io/issues">ici</a> en utilisant le label "Page : GeoGuessr".
         </p>
         <br>
         <h2>Organisation du site</h2>
         <p>
-            Le site se décompose en 4 parties principales :
+            Le site se décompose en 5 parties :
             <ul>
-                <li><b><ins>Accueil (Home) :</ins></b> Page d'accueil permettant d'accéder à différents modes de jeu ainsi que certaines cartes.</li>
+                <li><b><ins>Accueil (Logo GeoGuessr) :</ins></b> Page d'accueil permettant d'accéder à différents modes de jeu ainsi que certaines cartes.</li>
                 <li><b><ins>Compétitif (Competitive) :</ins></b> Page permettant de jouer seul contre d'autres personnes en ligne aux modes Battle Royale et Duels.</li>
                 <li><b><ins>Jouer entre amis (Play with friends) :</ins></b> Page permettant de créer des "parties" (jusqu'à 100 personnes) et jouer entre amis aux modes Battle Royale, Séries (Streaks), Duels, Bulls Eye et Live Challenges. Cependant, un de vos amis doit avoir un compte Pro afin de lancer les parties.</li>
                 <li><b><ins>Classique (Classic) :</ins></b> Page permettant de jouer aux modes exploration (Explorer Mode), Séries (Streaks), défi du jour (Daily Challenge), créer des cartes (Map Maker) (Pro uniquement) et créer des leagues (Pro uniquement).</li>
+                <li><b><ins>Héberger un quiz (Host a quiz) :</ins></b> Page permettant de créer et de jouer à des quiz géographiques.</li>
             </ul>
         </p>
         <br>
@@ -98,13 +98,13 @@
             Il n'y a pas de manche bonus et les manches compte double, triple, etc. commencent dès la 4<sup>e</sup> manche.
         </p>
         <br>
-        <h3>Bulls Eye</h3>
+        <h3>Bulls-eye</h3>
         <p>
             Ce mode ne peut être joué qu'entre amis (de 2 à 6 joueurs). C'est un mode coopératif.<br>
             <br>
             Le principe est simple : obtenir le plus de points possible en 5 manches. Le maximum est de 25 000 points.<br>
             Pour ce faire, tous les joueurs doivent s'unir afin de trouver le maximum d'indices. Ils peuvent, par exemple, se téléporter aux autres.<br>
-            A chaque manche, chaque joueur peut poser un cercle de diamètre au choix (parmi Ultra (~3 000 km, 500 pts), Large (~1 000 km, 1000 pts), Medium (~350 km, 2000 pts), Small (~130 km, 3000 pts), Mini (~40 km, 4000 pts) et Bulls-Eye (~600 m, 5000 pts)).<br>
+            A chaque manche, chaque joueur peut poser un cercle de diamètre au choix (parmi Ultra (<abbr title="Si la carte choisie n'est pas Monde, ce diamètre sera réduit.">~3 000 km</abbr>, 500 pts), Large (<abbr title="Si la carte choisie n'est pas Monde, ce diamètre sera réduit.">~1 000 km</abbr>, 1000 pts), Medium (<abbr title="Si la carte choisie n'est pas Monde, ce diamètre sera réduit.">~350 km</abbr>, 2000 pts), Small (<abbr title="Si la carte choisie n'est pas Monde, ce diamètre sera réduit.">~130 km</abbr>, 3000 pts), Mini (<abbr title="Si la carte choisie n'est pas Monde, ce diamètre sera réduit.">~40 km</abbr>, 4000 pts) et Bulls-Eye (~600 m, 5000 pts)).<br>
             En validant, le cercle devient vert si l'emplacement se situe à l'intérieur de celui-ci ou rouge s'il se situe à l'extérieur. En ayant cette information, les autres joueurs peuvent adapter leur proposition.<br>
             Une fois les cercles de tous les joueurs posés, le cercle vert le plus précis donne son nombre de points à la manche en cours.<br>
         </p>
@@ -117,6 +117,18 @@
             Les joueurs doivent jouer simultanément. Le jeu attend que tous les joueurs aient validé (ou une fois le temps écoulé) avant de passer à la manche suivante.<br>
             Le compte à rebours est affiché au centre de l'écran.<br>
             Les joueurs ayant déjà validé leur proposition peuvent regarder les autres joueurs et voir le temps restant en attendant la manche suivante.<br>
+        </p>
+        <br>
+        <h3>Quiz</h3>
+        <p>
+            Les quiz peuvent être créés et joués dans l'onglet "Host a quiz" du site.<br>
+            <br>
+            Les quiz peuvent contenir jusqu'à 50 manches. Chaque manche peut-être une question (avec 2-4 réponses proposées et 1 seule correcte) ou un emplacement à trouver sur la carte. Chacune des manches peut durer de 10 secondes à 10 minutes et jusqu'à 5000 points peuvent être récoltés.<br>
+            Pour les questions, les joueurs ayant eu faux ne gagnent aucun point tandis que ceux ayant répondu correctement gagnent des points en fonction de leur classement (le 1<sup>er</sup> à donner la bonne réponse gagne 5000 points puis les points baissent).<br>
+            Pour les emplacements à deviner, la distribution des points se fait suivant la distance entre le point propsé et réel (voir le mode de jeu "Normal" pour plus de détails).<br>
+            <br>
+            Pour jouer à un quiz, le créateur doit lancer la partie. Un code à 4 caractères ainsi qu'un Code QR est généré. Le code doit être saisi sur <a href="https://geoguessr.com/join">cette page</a>.<br>
+            Chaque quiz peut être joué jusqu'à 1000 personnes simultanément.<br>
         </p>
         <br>
         <h2>Organisation du mode compétitif</h2>
@@ -385,7 +397,10 @@
                 </tr>
             </table>
         <br>
-        <h2 class="float-clear">Sources & références</h2>
+        <h2 class="float-clear">Application mobile</h2>
+        <h3 class="warning">Cette section sera détaillée plus tard.</h3>
+        <br>
+        <h2>Sources & références</h2>
         <ul>
             <li><a href="https://www.geoguessr.com">GeoGuessr</a></li>
             <li><a href="https://geoguessr.zendesk.com/hc/en-us">Forum GeoGuessr</a></li>
