@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Nunito;
-    src: url(../fonts/Nunito.ttf);
-}
+@font-face{font-family:Nunito;src:url(../fonts/Nunito-Regular.ttf);}
 body{font-family:Nunito;background-color: black;color: white;}
 h1{color:red;text-decoration:underline;text-align:center;}
 h2{color:blueviolet;text-decoration: underline;}
