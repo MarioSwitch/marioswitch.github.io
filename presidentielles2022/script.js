@@ -6,6 +6,6 @@ function timer(){
     if(remaining2<86400*1000){document.getElementById("timer2").innerHTML = "Résultats dans "+("0"+remaining2.getUTCHours()).slice(-2)+":"+("0"+remaining2.getUTCMinutes()).slice(-2)+":"+("0"+remaining2.getUTCSeconds()).slice(-2);}
     if(remaining2<3600*1000){document.getElementById("timer2").innerHTML = "Résultats dans "+("0"+remaining2.getUTCMinutes()).slice(-2)+":"+("0"+remaining2.getUTCSeconds()).slice(-2);}
     if(remaining2<60*1000){document.getElementById("timer2").innerHTML = "Résultats dans "+remaining2.getUTCSeconds()+"s";}
-    if(remaining2<0){document.getElementById("timer2").innerHTML = "Les résultats sont désormais connus. Ils seront présentés ici dans quelques jours.";}
+    if(remaining2<0){document.getElementById("timer2").innerHTML = "En attente des résultats définitifs";}
     setTimeout(timer,1000);
 }
