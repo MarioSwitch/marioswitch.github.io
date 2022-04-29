@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: marioswitch.fr
-Token: 7d41eb0fffb3d02aae65e4c5bf526f8eb17c6799a667bec7ed54365f0ccbe717
