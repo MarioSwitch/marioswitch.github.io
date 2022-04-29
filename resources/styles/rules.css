@@ -1,0 +1,8 @@
+@font-face{font-family:nunito;src:url(../fonts/nunito.ttf)}
+body{font-family:nunito;background-color:black;color:white;}
+h1{color:red;text-decoration:underline;text-align:center}
+h2{color:blueviolet;text-decoration:underline}
+a:link{color:lightcoral;background-color:transparent;text-decoration:none}
+a:visited{color:lightcoral;background-color:transparent;text-decoration:none}
+a:hover{color:lightcoral;background-color:transparent;text-decoration:underline}
+a:active{color:red;background-color:transparent;text-decoration:underline}
