@@ -1,6 +1,6 @@
 @font-face{font-family:nunito;src:url(../fonts/nunito.ttf)}
 body{font-family:nunito;background-color:black;color:white}
-h1{color:red;text-align:center;text-decoration:underline}
+h1{color:red;text-align:center;text-decoration:underline;margin-top:70px}
 h2{color:yellowgreen}
 h3{color:darkcyan}
 abbr{cursor:help}
@@ -8,10 +8,11 @@ table{border-collapse:collapse;text-align:center}
 .center{text-align:center}
 .warning{color:orange}
 .inverse{filter:invert(100%)}
-.table-hidden th, .table-hidden td{border:15px solid black}
+.table-hidden th, .table-hidden td{border:15px solid #0000}
 .table-visible th, .table-visible td{border:2px solid white;padding:5px}
 .float{float:left;margin-right:10px;margin-bottom:50px}
 .float-clear{clear:both}
+.highlight{background-color:darkslategrey}
 a:link{color:lightcoral;background-color:transparent;text-decoration:none}
 a:visited{color:lightcoral;background-color:transparent;text-decoration:none}
 a:hover{color:lightcoral;background-color:transparent;text-decoration:underline}

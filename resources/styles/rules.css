@@ -1,6 +1,6 @@
 @font-face{font-family:nunito;src:url(../fonts/nunito.ttf)}
-body{font-family:nunito;background-color:black;color:white;}
-h1{color:red;text-decoration:underline;text-align:center}
+body{font-family:nunito;background-color:black;color:white}
+h1{color:red;text-decoration:underline;text-align:center;margin-top:70px}
 h2{color:blueviolet;text-decoration:underline}
 a:link{color:lightcoral;background-color:transparent;text-decoration:none}
 a:visited{color:lightcoral;background-color:transparent;text-decoration:none}

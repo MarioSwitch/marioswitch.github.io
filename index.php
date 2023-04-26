@@ -7,125 +7,115 @@
 		<title>Accueil - MarioSwitch</title>
 		<link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/dmWhVeb.png">
 		<link rel="stylesheet" href="resources/styles/general.css">
+        <?php include_once 'resources/php/menu.php' ?>
+		<?php include_once 'resources/php/functions.php' ?>
 	</head>
 	<body>
+		<?php insertMenu(); ?>
 		<h1>Accueil</h1>
 		<h2>Bienvenue sur le site de MarioSwitch !</h2>
 		<p>
 			Bonjour et bienvenue sur le site de MarioSwitch.<br>
-			Il a été créé en <a href="https://fr.wikipedia.org/wiki/HTML">HTML</a>/<a href="https://fr.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a> par MarioSwitch en utilisant <a href="https://fr.wikipedia.org/wiki/Visual_Studio_Code">Visual Studio Code</a> (sans utiliser d'éditeur visuel).<br>
-			Le site est hébergé sur <a href="https://fr.wikipedia.org/wiki/GitHub">GitHub</a> grâce à <a href="https://pages.github.com/">GitHub Pages</a>.<br>
+			Il a été créé en <a href="https://fr.wikipedia.org/wiki/HTML">HTML</a>/<a href="https://fr.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a>/<a href="https://fr.wikipedia.org/wiki/JavaScript">JS</a> par MarioSwitch en utilisant <a href="https://fr.wikipedia.org/wiki/Visual_Studio_Code">Visual Studio Code</a> (sans utiliser d'éditeur visuel).<br>
+			Depuis la version 2.0 (15 décembre 2022), du <a href="https://fr.wikipedia.org/wiki/PHP">PHP</a> est également exécuté, notamment pour gérer la barre de menu et calculer automatiquement les statistiques du site.<br>
+			Le site est hébergé sur <a href="https://fr.wikipedia.org/wiki/OVHcloud">OVH Cloud</a> (<a href="https://fr.wikipedia.org/wiki/GitHub">GitHub</a> jusqu'au 15 décembre 2022).<br>
+			Cependant, le code source est toujours disponible sur le <a href="https://github.com/MarioSwitch/marioswitch.github.io/">dépôt "marioswitch.github.io"</a> sur GitHub.<br>
 			Toutes les pages ont été vérifiées par le <a href="https://validator.w3.org/nu/">validateur HTML5</a> du <a href="https://fr.wikipedia.org/wiki/World_Wide_Web_Consortium">W3C</a> (au 29 avr. 2022). Le site respecte donc les standards de ce langage.<br>
 			Si vous remarquez un problème ou une erreur, vous pouvez le signaler <a href="https://github.com/MarioSwitch/marioswitch.github.io/issues">ici</a>. Vous pouvez également y soumettre des suggestions d'amélioration.
 		</p>
 		<br>
-		<h2>Pages</h2>
-		<h3>Général</h3>
-		<ul>
-			<li>Page d'accueil (cette page)</li>
-		</ul>
-		<br>
-		<h3>Jeux</h3>
-		<ul>
-			<li><a href="pages/games/parcheesi.html">Parcheesi</a></li>
-			<li><a href="pages/games/geoguessr.html">GeoGuessr</a></li>
-			<li><a href="pages/games/fallguys.html">Fall Guys: Ultimate Knockout</a></li>
-			<li><a href="pages/games/minecraft.html">Liste des versions de Minecraft</a></li>
-			<li>The Longest Game Ever 2 (bientôt)</li>
-		</ul>
-		<br>
-		<h3>Non catégorisé</h3>
-		<ul>
-			<li><a href="pages/misc/discord-rules.html">Règles du Serveur Discord</a></li>
-			<li><a href="pages/misc/privacy.html">Règles de confidentialité des applications Google Play</a></li>
-		</ul>
-		<br>
-		<h3>Sous-domaines</h3>
-		<ul>
-			<li><a href="http://clock.marioswitch.fr">clock</a> (horloge UTC et française)</li>
-			<li><a href="http://predictions.marioswitch.fr">predictions</a> (site permettant de parier sur les prédictions créées par les utilisateurs). Ce projet, très distinct du site original, n'est pas compté dans les statistiques.</li>
-		</ul>
-		<br>
 		<h2>Statistiques & dates clés</h2>
 		<table class="table-hidden">
 			<tr>
-				<td><b>Début du projet</b></td>
+				<th>Début du projet</th>
 				<td>8 novembre 2021</td>
 			</tr>
 			<tr>
-				<td><b>Mise en ligne</b></td>
+				<th>Mise en ligne</th>
 				<td>18 janvier 2022</td>
 			</tr>
 			<tr>
-				<td><b>Acquisition du domaine</b></td>
+				<th>Acquisition du domaine</th>
 				<td>4 février 2022</td>
 			</tr>
 			<tr>
-				<td><b>Version</b></td>
-				<td>1.5<br>(29 avril 2022)</td>
+				<th>Hébergement web</th>
+				<td>15 décembre 2022</td>
 			</tr>
 			<tr>
-				<td><b>Pages</b></td>
-				<td>8</td>
+				<th>Version</th>
+				<td>2.1<br>(26 avril 2023)</td>
 			</tr>
 			<tr>
-				<td><abbr title="Cela inclus les pages web, les feuilles de style et les scripts JavaScript. Hors polices d'écriture, icônes SVG et CNAME."><b>Taille du code</b></abbr></td>
-				<td>82,5 Ko</td>
+				<th><abbr title="Calculé automatiquement en PHP.">Pages</abbr></th>
+				<td><?php totalPages(); ?></td>
 			</tr>
 			<tr>
-				<td><abbr title="Taille totale du site, hors predictions.marioswitch.fr"><b>Taille totale</b></abbr></td>
-				<td>237 Ko</td>
+				<th><abbr title="Cela inclus les pages web, les feuilles de style et les scripts JavaScript. Hors polices d'écriture, icônes SVG et CNAME. Calculé automatiquement en PHP.">Taille du code</abbr></th>
+				<td><?php codeSize(); ?></td>
 			</tr>
 			<tr>
-				<td><b>Temps passé</b></td>
-				<td>50+ heures</td>
+				<th><abbr title="Taille totale du site, hors predictions.marioswitch.fr. Calculé automatiquement en PHP.">Taille totale</abbr></th>
+				<td><?php totalSize(); ?></td>
+			</tr>
+			<tr>
+				<th>Temps passé</th>
+				<td>60+ heures</td>
 			</tr>
 		</table>
 		<br>
 		<h2>Notes de mises à jour</h2>
 		<table class="table-hidden">
 			<tr>
-				<td><b>1.5</b></td>
+				<th>2.1</th>
+				<td>Mise en place de Git<br>Mise à jour du dépôt GitHub</td>
+			</tr>
+			<tr>
+				<th>2.0<br>Hébergement web</th>
+				<td>Ajout de PHP<br>Ajout d'une barre de menu</td>
+			</tr>
+			<tr>
+				<th>1.5</th>
 				<td>Respect des règles HTML5<br>Réorganisation du site</td>
 			</tr>
 			<tr>
-				<td><b>1.4</b></td>
+				<th>1.4</th>
 				<td>Ajout des DOCTYPE et des langues</td>
 			</tr>
 			<tr>
-				<td><b>1.3</b></td>
+				<th>1.3</th>
 				<td>Les tableaux possèdent désormais une "class"</td>
 			</tr>
 			<tr>
-				<td><b>1.2</b></td>
+				<th>1.2</th>
 				<td>Amélioration de la CSS</td>
 			</tr>
 			<tr>
-				<td><b>1.1</b></td>
+				<th>1.1</th>
 				<td>Ajout d'une CSS pour uniformiser le style</td>
 			</tr>
 			<tr>
-				<td><b>1.0</b><br>Domaine personnalisé</td>
+				<th>1.0<br>Domaine personnalisé</th>
 				<td>Transfert du site vers <i>marioswitch.fr</i><br>Les versions ne changent plus à la màj d'une page</td>
 			</tr>
 			<tr>
-				<td><b>Beta 2.0 - 2.1</b></td>
+				<th>Beta 2.0 - 2.1</th>
 				<td>Ajout de la page <i>Parcheesi</i><br>Améliorations diverses</td>
 			</tr>
 			<tr>
-				<td><b>Beta 1.0 - 1.4</b><br>1<sup>re</sup> publication</td>
+				<th>Beta 1.0 - 1.4<br>1<sup>re</sup> publication</th>
 				<td>Mise en ligne du site<br>Ajout du réseau Speedrun.com<br>La police <i>Nunito</i> affecte tout le monde<br>Ajustements divers</td>
 			</tr>
 			<tr>
-				<td><b>Alpha 3.0</b><br>MàJ technique</td>
+				<th>Alpha 3.0<br>MàJ technique</th>
 				<td>Mise en place de "class"<br>Ajout d'un logo<br>Renommage de la page en "Accueil"</td>
 			</tr>
 			<tr>
-				<td><b>Alpha 2.0</b></td>
+				<th>Alpha 2.0</th>
 				<td>Le fond du site est désormais noir<br>Ajout de numéros de versions et de notes de MàJ<br> Ajout d'icônes pour les réseaux<br>Ajouts & corrections diverses</td>
 			</tr>
 			<tr>
-				<td><b>Alpha 1.0 - 1.3</b></td>
+				<th>Alpha 1.0 - 1.3</th>
 				<td>Création du site & divers ajouts</td>
 			</tr>
 		</table>
@@ -137,8 +127,8 @@
 			<a href="https://discord.gg/xEFsH6x"><img src="resources/svg/discord.svg" alt="Discord" width=50 height=40></a>
 			<a href="https://github.com/marioswitch"><img class="inverse" src="resources/svg/github.svg" alt="GitHub" width=40 height=40></a>
 			<a href="https://speedrun.com/MarioSwitch"><img src="https://www.speedrun.com/images/1st.png" alt="Speedrun.com" width=45 height=40></a>
-			<a href="https://play.google.com/store/apps/dev?id=6889444212492017160"><img src="resources/svg/googleplay.svg" alt="Google Play" width="40" height="40"></a>
-			<br>© 2022 MarioSwitch
+			<a href="https://play.google.com/store/apps/dev?id=6889444212492017160"><img src="resources/svg/google-play.svg" alt="Google Play" width="40" height="40"></a>
+			<br>2022-2023 MarioSwitch
 		</p>
 	</body>
 </html>
