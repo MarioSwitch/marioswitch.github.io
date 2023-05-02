@@ -14,7 +14,7 @@
         <?php insertMenu(); ?>
 		<h1>Fall Guys: Ultimate Knockout</h1>
 		<p>
-            Fall Guys : Ultimate Knockout (souvent abrégé en Fall Guys) est un <i>party game</i> gratuit (payant du 4 août 2020 au 21 juin 2022 au prix de 19,99 €) sorti le 4 août 2020 sur <a href="https://fr.wikipedia.org/wiki/Steam">Steam</a> et <a href="https://fr.wikipedia.org/wiki/PlayStation_4">PS4</a> puis sur l'<a href="https://fr.wikipedia.org/wiki/Epic_Games_Store">Epic Games Store</a>, <a href="https://fr.wikipedia.org/wiki/PlayStation_5">PS5</a>, <a href="https://fr.wikipedia.org/wiki/Nintendo_Switch">Switch</a> et <a href="https://fr.wikipedia.org/wiki/Xbox_Series">Xbox Series X/S</a> le 21 juin 2022.<br>
+            Fall Guys: Ultimate Knockout (souvent abrégé en Fall Guys) est un <i>party game</i> gratuit (payant du 4 août 2020 au 21 juin 2022 au prix de 19,99 €) sorti le 4 août 2020 sur <a href="https://fr.wikipedia.org/wiki/Steam">Steam</a> et <a href="https://fr.wikipedia.org/wiki/PlayStation_4">PS4</a> puis sur l'<a href="https://fr.wikipedia.org/wiki/Epic_Games_Store">Epic Games Store</a>, <a href="https://fr.wikipedia.org/wiki/PlayStation_5">PS5</a>, <a href="https://fr.wikipedia.org/wiki/Nintendo_Switch">Switch</a> et <a href="https://fr.wikipedia.org/wiki/Xbox_Series">Xbox Series X/S</a> le 21 juin 2022.<br>
             Le jeu se déroule en "émissions", comportant jusqu'à <abbr title="Certaines émissions sont limitées à moins de 60 joueurs.">60 joueurs</abbr>, composées de plusieurs manches (5 habituellement). À chaque manche, seuls les meilleurs joueurs sont qualifiés, les autres étant éliminés.<br>
             Il existe des émissions spéciales qui ne comportent que certains mini-jeux (ou type de mini-jeux).
         </p>
@@ -408,19 +408,19 @@
                 <td>3</td>
                 <td>Océan</td>
                 <td>22 novembre 2022</td>
-                <td><i>10 mai 2023<br>(à confirmer)</i></td>
-                <td><i>5 mois et 18 jours<br>(169 jours, à confirmer)</i></td>
+                <td>10 mai 2023</td>
+                <td>5 mois et 18 jours<br>(169 jours)</td>
                 <td>81<br>(+5)</td>
                 <td>Contre-la-montre</td>
             </tr>
             <tr>
                 <td>4</td>
+                <td>Construction</td>
+                <td>10 mai 2023</td>
                 <td></td>
-                <td><i>10 mai 2023<br>(à confirmer)</i></td>
                 <td></td>
-                <td></td>
-                <td></td>
-                <td><i>Mode créatif<br>(à confirmer)</i></td>
+                <td><i>101<br>(+20, à confirmer)</i></td>
+                <td>Mode créatif<br>Plusieurs pass de célébrité</td>
             </tr>
         </table>
         <br>
