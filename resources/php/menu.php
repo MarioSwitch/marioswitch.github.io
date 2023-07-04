@@ -51,8 +51,7 @@
                     <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/misc/games.php\">Jeux les plus joués</a></div>
                 </div>
                 <div class=\"category\">Sous-domaines
-                    <div class=\"item\"><a href=\"https://clock.marioswitch.fr/\">Horloge</a> (BETA)</div>
-                    <div class=\"item\">Prédictions (unsupported)</div>
+                    <div class=\"item\"><a href=\"http://predictions.marioswitch.fr/\">Prédictions</a> (v2)</div>
                 </div>
             </div>
         ");
