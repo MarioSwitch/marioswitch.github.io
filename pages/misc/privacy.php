@@ -18,9 +18,9 @@
 			A partir de la version 2.1.0, seules les données relatives à votre compte Google Play Jeux sont récoltées afin d'utiliser ces services (classements et succès). Aucune autre donnée personnelle n'est traitée par l'application.<br>
 		</p>
 		<br>
-		<h2>Enigma</h2>
+		<h2>Enigma et ScrabbHelper</h2>
 		<p>
-			Seuls votre adresse e-mail et votre pseudo Play Jeux sont récoltés afin d'utiliser les services Google Play Jeux (classements et succès). Aucune autre donnée personnelle n'est traitée par l'application.<br>
+			Aucune donnée personnelle n'est traitée par ces applications.<br>
 		</p>
 	</body>
 </html>
