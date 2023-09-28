@@ -42,8 +42,8 @@
             <tr class="highlight">
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>296 h</td>
-                <td>25 avril 2023</td>
+                <td>353 h</td>
+                <td>28 septembre 2023</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -149,6 +149,22 @@
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
+            <tr class="highlight">
+                <td>Celeste</td>
+                <td>PC</td>
+                <td>53:58</td>
+                <td>28 septembre 2023</td>
+                <td>
+                    <b>Comprend :</b>
+                    <br>Fichier principal (28:30)
+                    <br>Speedruns (9:07)
+                    <br>Spring Collab (9:01 (7:49 + 1:12))
+                    <br>Far Away (2:49)
+                    <br>B-Side Strawberries (2:45)
+                    <br>Strawberry Jam Collab (1:17)
+                    <br>NuttyNoon (29 min)
+                </td>
+            </tr>
             <tr>
                 <td>Cars: Race-o-Rama</td>
                 <td>DS</td>
@@ -171,29 +187,13 @@
                 <td></td>
             </tr>
             <tr class="highlight">
-                <td>Celeste</td>
-                <td>PC</td>
-                <td>43:46</td>
-                <td>25 avril 2023</td>
-                <td>
-                    <b>Comprend :</b>
-                    <br>Celeste (27:42)
-                    <br>Speedruns (6:14)
-                    <br>Spring Collab (4:36)
-                    <br>B-Side Strawberries (2:45)
-                    <br>Strawberry Jam Collab (1:03)
-                    <br>Far Away (57 min)
-                    <br>NuttyNoon (29 min)
-                </td>
-            </tr>
-            <tr class="highlight">
                 <td>Picross</td>
                 <td>Switch</td>
-                <td>43 h</td>
-                <td>25 avril 2023</td>
+                <td>48 h</td>
+                <td>28 septembre 2023</td>
                 <td>
                     <b>Comprend :</b>
-                    <br>Picross S5 (40 h)
+                    <br>Picross S5 (45 h)
                     <br>Picross S6 Demo (3 h)
                     <br>Picross S7 Demo (0 h)
                     <br>Picross S8 Demo (0 h)
