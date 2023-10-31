@@ -1,3 +1,12 @@
+<?php
+    $i = 0;
+    function rank($reset = 0){
+        global $i;
+        if($reset){$i = 0;}
+        $i++;
+        return $i;
+    }
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
@@ -19,6 +28,7 @@
         </p>
         <table class="table-hidden">
             <tr>
+                <th>Rang</th>
                 <th>Jeu</th>
                 <th>Plateforme(s)</th>
                 <th>Temps de jeu</th>
@@ -26,27 +36,31 @@
                 <th>Notes</th>
             </tr>
             <tr>
+                <td><?php echo rank(1); ?></td>
                 <td>UNO</td>
                 <td>Mobile</td>
                 <td>383:17</td>
                 <td>Octobre 2022</td>
                 <td>D'après Game Launcher </td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>The Longest Game Ever 2</td>
+                <td>Mobile</td>
+                <td>364 h</td>
+                <td>31 octobre 2023</td>
+                <td>D'après les succès du jeu</td>
+            </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Clash of Clans</td>
                 <td>Mobile</td>
                 <td>330:29</td>
                 <td>Octobre 2022</td>
                 <td>D'après Game Launcher</td>
             </tr>
-            <tr class="highlight">
-                <td>The Longest Game Ever 2</td>
-                <td>Mobile</td>
-                <td>353 h</td>
-                <td>28 septembre 2023</td>
-                <td>D'après les succès du jeu</td>
-            </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>New Super Mario Bros. 2</td>
                 <td>3DS</td>
                 <td>202:53</td>
@@ -54,6 +68,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Super Mario Odyssey</td>
                 <td>Switch</td>
                 <td>190 h</td>
@@ -61,6 +76,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Super Mario Maker</td>
                 <td>Wii U, Switch</td>
                 <td>172:53</td>
@@ -72,6 +88,7 @@
                 </td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>New Super Mario Bros. U</td>
                 <td>Wii U</td>
                 <td>171:49</td>
@@ -79,6 +96,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Super Mario 3D World</td>
                 <td>Wii U</td>
                 <td>147:54</td>
@@ -86,6 +104,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Fall Guys</td>
                 <td>PC, Switch</td>
                 <td>126:54</td>
@@ -97,6 +116,7 @@
                 </td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Yoshi's Wooly World</td>
                 <td>Wii U, 3DS</td>
                 <td>104:42</td>
@@ -108,6 +128,7 @@
                 </td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Super Mario 3D Land</td>
                 <td>3DS</td>
                 <td>98:56</td>
@@ -115,6 +136,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Super Mario Galaxy</td>
                 <td>Wii</td>
                 <td>76:02</td>
@@ -122,6 +144,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Super Mario Galaxy 2</td>
                 <td>Wii</td>
                 <td>74:59</td>
@@ -129,6 +152,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Mario Kart 8</td>
                 <td>Wii U</td>
                 <td>67:47</td>
@@ -136,6 +160,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Rayman Legends</td>
                 <td>Switch</td>
                 <td>65 h</td>
@@ -143,13 +168,15 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Paper Mario: Color Splash</td>
                 <td>Wii U</td>
                 <td>54:58</td>
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
-            <tr class="highlight">
+            <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Celeste</td>
                 <td>PC</td>
                 <td>53:58</td>
@@ -166,6 +193,7 @@
                 </td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Cars: Race-o-Rama</td>
                 <td>DS</td>
                 <td>51:45</td>
@@ -173,6 +201,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Go Vacation</td>
                 <td>Switch</td>
                 <td>50 h</td>
@@ -180,13 +209,15 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Paper Mario: The Origami King</td>
                 <td>Switch</td>
                 <td>50 h</td>
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
-            <tr class="highlight">
+            <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Picross</td>
                 <td>Switch</td>
                 <td>48 h</td>
@@ -201,6 +232,7 @@
                 </td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Temps Perdu</td>
                 <td>Mobile</td>
                 <td>37:14</td>
@@ -208,6 +240,7 @@
                 <td>D'après Game Launcher</td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>New Super Mario Bros.</td>
                 <td>DS</td>
                 <td>36:11</td>
@@ -215,6 +248,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Animal Crossing: New Horizons</td>
                 <td>Switch</td>
                 <td>35 h</td>
@@ -222,6 +256,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Yoshi's Crafted World</td>
                 <td>Switch</td>
                 <td>35 h</td>
@@ -229,6 +264,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Donkey Kong Country: Tropical Freeze</td>
                 <td>Wii U</td>
                 <td>31:16</td>
@@ -236,6 +272,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Kirby et le monde oublié</td>
                 <td>Switch</td>
                 <td>30 h</td>
@@ -243,6 +280,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Captain Toad: Treasure Tracker</td>
                 <td>Wii U</td>
                 <td>26:49</td>
@@ -250,6 +288,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>L'atelier du jeu vidéo</td>
                 <td>Switch</td>
                 <td>25 h</td>
@@ -257,6 +296,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Minecraft</td>
                 <td>Switch</td>
                 <td>25 h</td>
@@ -264,6 +304,7 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Nintendo Labo Toy-Con 3</td>
                 <td>Switch</td>
                 <td>25 h</td>
@@ -271,11 +312,24 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Mundijuegos</td>
                 <td>Mobile</td>
                 <td>24:08</td>
                 <td>Octobre 2022</td>
                 <td>D'après Game Launcher</td>
+            </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Super Mario Bros. Wonder</td>
+                <td>Switch, émulateur</td>
+                <td>20 h</td>
+                <td>31 octobre 2023</td>
+                <td>
+                    <b>Comprend :</b>
+                    <br>Super Mario Bros. Wonder (ému) (20:00)
+                    <br>Super Mario Bros. Wonder (Switch) (0 h)
+                </td>
             </tr>
         </table>
 	</body>
