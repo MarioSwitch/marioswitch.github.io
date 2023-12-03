@@ -22,7 +22,7 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué.<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 3 décembre 2023).<br>
             Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
@@ -47,8 +47,8 @@
                 <td><?php echo rank(); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>364 h</td>
-                <td>31 octobre 2023</td>
+                <td>375 h</td>
+                <td>3 décembre 2023</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -117,7 +117,7 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td>Yoshi's Wooly World</td>
+                <td>Yoshi's Woolly World</td>
                 <td>Wii U, 3DS</td>
                 <td>104:42</td>
                 <td>17 avril 2023</td>
@@ -231,6 +231,14 @@
                     <br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (0 h)
                 </td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Hatsune Miku: Project DIVA Mega Mix</td>
+                <td>Switch</td>
+                <td>40:17</td>
+                <td>3 décembre 2023</td>
+                <td></td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Temps Perdu</td>
@@ -319,15 +327,15 @@
                 <td>Octobre 2022</td>
                 <td>D'après Game Launcher</td>
             </tr>
-            <tr class="highlight">
+            <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Super Mario Bros. Wonder</td>
-                <td>Switch, émulateur</td>
+                <td>Switch</td>
                 <td>20 h</td>
                 <td>31 octobre 2023</td>
                 <td>
                     <b>Comprend :</b>
-                    <br>Super Mario Bros. Wonder (ému) (20:00)
+                    <br>Super Mario Bros. Wonder (Ryujinx) (20:00)
                     <br>Super Mario Bros. Wonder (Switch) (0 h)
                 </td>
             </tr>
