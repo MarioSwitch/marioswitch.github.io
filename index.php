@@ -13,6 +13,7 @@
 	<body>
 		<?php insertMenu(); ?>
 		<h1>Accueil</h1>
+		<h2 class="warning">MarioSwitch vous souhaite de joyeuses fêtes et une bonne année 2024 !</h2>
 		<h2>Bienvenue sur le site de MarioSwitch !</h2>
 		<p>
 			Bonjour et bienvenue sur le site de MarioSwitch.<br>
@@ -47,15 +48,11 @@
 				<td>2.1<br>(26 avril 2023)</td>
 			</tr>
 			<tr>
-				<th><abbr title="Calculé automatiquement en PHP.">Pages</abbr></th>
-				<td><?php totalPages(); ?></td>
+				<th><abbr title="Calculé automatiquement en PHP.">Pages publiques</abbr></th>
+				<td><?php totalPages(); ?> (<?php codeSize(); ?>)</td>
 			</tr>
 			<tr>
-				<th><abbr title="Cela inclus les pages web, les feuilles de style et les scripts JavaScript. Hors polices d'écriture, icônes SVG et CNAME. Calculé automatiquement en PHP.">Taille du code</abbr></th>
-				<td><?php codeSize(); ?></td>
-			</tr>
-			<tr>
-				<th><abbr title="Taille totale du site, hors predictions.marioswitch.fr. Calculé automatiquement en PHP.">Taille totale</abbr></th>
+				<th><abbr title="Taille totale du site (y compris les pages privées), hors predictions.marioswitch.fr. Calculé automatiquement en PHP.">Taille totale du site</abbr></th>
 				<td><?php totalSize(); ?></td>
 			</tr>
 			<tr>
@@ -123,12 +120,12 @@
 		<p class="center">
 			<a href="https://youtube.com/channel/UCP6sft2CrLn148rBknFT8yQ"><img src="resources/svg/youtube.svg" alt="YouTube" width=45 height=30></a>
 			<a href="https://twitch.tv/marioswitch2020"><img src="resources/svg/twitch.svg" alt="Twitch" width=50 height=50></a>
-			<a href="https://twitter.com/marioswitch2020"><img src="resources/svg/twitter.svg" alt="Twitter" width=40 height=40></a>
+			<a href="https://x.com/marioswitch2020"><img src="resources/svg/x.svg" alt="X (ex-Twitter)" width=40 height=40></a>
 			<a href="https://discord.gg/xEFsH6x"><img src="resources/svg/discord.svg" alt="Discord" width=50 height=40></a>
 			<a href="https://github.com/marioswitch"><img class="inverse" src="resources/svg/github.svg" alt="GitHub" width=40 height=40></a>
 			<a href="https://speedrun.com/MarioSwitch"><img src="https://www.speedrun.com/images/1st.png" alt="Speedrun.com" width=45 height=40></a>
 			<a href="https://play.google.com/store/apps/dev?id=6889444212492017160"><img src="resources/svg/google-play.svg" alt="Google Play" width="40" height="40"></a>
-			<br>2022-2023 MarioSwitch
+			<br>2022-2024 MarioSwitch
 		</p>
 	</body>
 </html>

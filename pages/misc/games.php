@@ -22,7 +22,7 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 3 décembre 2023).<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 28 décembre 2023).<br>
             Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
@@ -35,21 +35,21 @@
                 <th>Mise à jour</th>
                 <th>Notes</th>
             </tr>
-            <tr>
+            <tr class="highlight">
                 <td><?php echo rank(1); ?></td>
+                <td>The Longest Game Ever 2</td>
+                <td>Mobile</td>
+                <td>385 h</td>
+                <td>28 décembre 2023</td>
+                <td>D'après les succès du jeu</td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
                 <td>UNO</td>
                 <td>Mobile</td>
                 <td>383:17</td>
                 <td>Octobre 2022</td>
                 <td>D'après Game Launcher </td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>The Longest Game Ever 2</td>
-                <td>Mobile</td>
-                <td>375 h</td>
-                <td>3 décembre 2023</td>
-                <td>D'après les succès du jeu</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -192,6 +192,14 @@
                     <br>NuttyNoon (29 min)
                 </td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Hatsune Miku: Project DIVA Mega Mix</td>
+                <td>Switch</td>
+                <td>53:46</td>
+                <td>28 décembre 2023</td>
+                <td></td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Cars: Race-o-Rama</td>
@@ -230,14 +238,6 @@
                     <br>Picross S8 Demo (0 h)
                     <br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (0 h)
                 </td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>Hatsune Miku: Project DIVA Mega Mix</td>
-                <td>Switch</td>
-                <td>40:17</td>
-                <td>3 décembre 2023</td>
-                <td></td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>

@@ -17,17 +17,18 @@
     }
 
     function totalPages(){
-        echo(scan_dir('./pages/',"files")+2); // +2 pour la page d'accueil et clock.marioswitch.fr
+        echo(scan_dir('./pages/',"files")+1); // +1 pour la page d'accueil
     }
 
     function codeSize(){
         echo(
             floor(
                 (
-                    scan_dir('./',"size")
-                    -scan_dir('./resources/fonts',"size")
-                    -scan_dir('./resources/svg',"size")
-                    -18 //CNAME
+                    scan_dir('./pages/',"size")
+                    +scan_dir('./resources/php/',"size")
+                    +scan_dir('./resources/scripts/',"size")
+                    +scan_dir('./resources/styles/', "size")
+                    +filesize('./index.php')
                 )
                 /1024
             ) . " Ko"
