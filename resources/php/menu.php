@@ -35,6 +35,7 @@
     }
 </style>
 <?php
+    include_once 'functions.php';
     function insertMenu(){
         echo("
             <div class=\"menu\">
@@ -44,6 +45,7 @@
                     <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/games/geoguessr.php\">GeoGuessr</a></div>
                     <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/games/fallguys.php\">Fall Guys</a></div>
                     <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/games/minecraft.php\">Minecraft</a></div>
+                    <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/games/tlge2.php\">TLGE2</a></div>
                 </div>
                 <div class=\"category\">Misc.
                     <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/misc/discord-rules.php\">Règles Discord</a></div>

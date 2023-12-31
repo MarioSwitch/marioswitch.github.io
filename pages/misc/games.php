@@ -1,12 +1,3 @@
-<?php
-    $i = 0;
-    function rank($reset = 0){
-        global $i;
-        if($reset){$i = 0;}
-        $i++;
-        return $i;
-    }
-?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>

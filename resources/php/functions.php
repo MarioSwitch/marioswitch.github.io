@@ -38,4 +38,16 @@
     function totalSize(){
         echo(floor(scan_dir('./',"size")/1024) . " Ko");
     }
+
+    $i = 0;
+    function rank($reset = 0)
+    {
+        global $i;
+
+        $i++;
+        if ($reset != 0) {
+            $i = $reset;
+        }
+        return $i;
+    }
 ?>
