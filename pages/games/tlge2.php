@@ -17,13 +17,13 @@
             Il comporte 9 082 niveaux (4 541 niveaux en normal et autant en difficile), des boss (qui reprennent les concepts des niveaux en plus difficile) ainsi que des succès.
         </p>
         <br>
-        <h2>Limites et statistiques (au 31 déc. 2023)</h2>
+        <h2>Limites et statistiques (au 27 janv. 2024)</h2>
         <p>
-            Sur environ <abbr title="Basé sur le fait que je soit 146ᵉ et dans le top 0,0530%. 146/0.000530 = 275 472">275 472 joueurs</abbr>, <abbr title="Selon le jeu (car je suis le 146ᵉ, 115 selon Google Play Jeux)">au moins 146 personnes</abbr> ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
+            Sur environ <abbr title="Basé sur le fait que je soit 146ᵉ et dans le top 0,0529%. 146/0.000529 = 275 992">275 992 joueurs</abbr>, <abbr title="Selon le jeu (car je suis le 146ᵉ, 115 selon Google Play Jeux)">au moins 146 personnes</abbr> ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
             En effet, le premier en nombre d'XP récupéré, <i>romain22222</i>, est à 5 points du maximum (1 succès) soit à 73 324.<br><br>
-            Je suis le <abbr title="97ᵉ selon Google Play Jeux, 146ᵉ selon le jeu">97<sup>e</sup> / 146<sup>e</sup></abbr> à avoir terminé tous les niveaux et 24<sup>e</sup> / 26<sup>e</sup> en nombre d'XP (64 489 / 73 329, rang 158).
+            Je suis le <abbr title="97ᵉ selon Google Play Jeux, 146ᵉ selon le jeu">97<sup>e</sup> / 146<sup>e</sup></abbr> à avoir terminé tous les niveaux et 24<sup>e</sup> / 25<sup>e</sup> en nombre d'XP (65 089 / 73 329, rang 159).
         </p>
-        <h2>Classement Google Play Jeux (au 31 déc. 2023)</h2>
+        <h2>Classement Google Play Jeux (au 27 janv. 2024)</h2>
         <table class="table-hidden">
             <tr>
                 <th>Rang</th>
@@ -66,8 +66,8 @@
                 <td>72 534</td>
             </tr>
             <tr class="highlight">
-                <td></td>
-                <td><i>MarioSwitch2020<br>(tous les boosts)</i></td>
+                <td>6</td>
+                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 10 améliorations),<br>Q1 2025)</i></td>
                 <td>70 389</td>
             </tr>
             <tr>
@@ -103,7 +103,7 @@
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>tobbug42</td>
-                <td>67 305</td>
+                <td>67 359</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -141,8 +141,8 @@
                 <td>65 541</td>
             </tr>
             <tr class="highlight">
-                <td></td>
-                <td><i>MarioSwitch2020<br>(encore 3 améliorations,<br>vers début mars 2024)</i></td>
+                <td>20</td>
+                <td><i>MarioSwitch2020<br>(encore 1 amélioration,<br>mi-février 2024)</i></td>
                 <td>65 489</td>
             </tr>
             <tr>
@@ -162,7 +162,7 @@
             <tr class="highlight">
                 <td><?php echo rank(); ?></td>
                 <td>MarioSwitch2020</td>
-                <td>64 489</td>
+                <td>65 089</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>

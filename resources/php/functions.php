@@ -39,15 +39,37 @@
         echo(floor(scan_dir('./',"size")/1024) . " Ko");
     }
 
-    $i = 0;
+    $index = 0; //Index of the element
+    $display = 0; //Displayed rank, which differs from index when some elements have the same rank (using rankEq())
+    /**
+     * Show rank automatically (must be reset to 1 the first time you use it)
+     * Increases $index and set $display to $index
+     * @param $reset int Resets rank to this value, if greater than 0 (0 by default)
+     * @return int Rank
+     */
     function rank($reset = 0)
     {
-        global $i;
+        global $index;
+        global $display;
 
-        $i++;
-        if ($reset != 0) {
-            $i = $reset;
+        $index++;
+        if ($reset > 0) {
+            $index = $reset;
         }
-        return $i;
+        $display = $index;
+        return $display;
+    }
+
+    /**
+     * Show the same rank as above, but increases index anyway
+     * Increases $index only, returns $display
+     * @return int Rank (same as previous one)
+     */
+    function rankEq(){
+        global $index;
+        global $display;
+
+        $index++;
+        return $display;
     }
 ?>

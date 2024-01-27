@@ -13,7 +13,6 @@
 	<body>
 		<?php insertMenu(); ?>
 		<h1>Accueil</h1>
-		<h2 class="warning">MarioSwitch vous souhaite de joyeuses fêtes et une bonne année 2024 !</h2>
 		<h2>Bienvenue sur le site de MarioSwitch !</h2>
 		<p>
 			Bonjour et bienvenue sur le site de MarioSwitch.<br>

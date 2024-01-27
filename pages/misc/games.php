@@ -13,7 +13,7 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 28 décembre 2023).<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 27 janvier 2024).<br>
             Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
@@ -30,8 +30,8 @@
                 <td><?php echo rank(1); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>385 h</td>
-                <td>28 décembre 2023</td>
+                <td>397 h</td>
+                <td>27 janvier 2024</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -158,6 +158,14 @@
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Hatsune Miku: Project DIVA Mega Mix</td>
+                <td>Switch</td>
+                <td>64:16</td>
+                <td>27 janvier 2024</td>
+                <td></td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Paper Mario: Color Splash</td>
@@ -183,14 +191,6 @@
                     <br>NuttyNoon (29 min)
                 </td>
             </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>Hatsune Miku: Project DIVA Mega Mix</td>
-                <td>Switch</td>
-                <td>53:46</td>
-                <td>28 décembre 2023</td>
-                <td></td>
-            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Cars: Race-o-Rama</td>
@@ -208,7 +208,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td><?php echo rank(); ?></td>
+                <td><?php echo rankEq(); ?></td>
                 <td>Paper Mario: The Origami King</td>
                 <td>Switch</td>
                 <td>50 h</td>
@@ -255,7 +255,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td><?php echo rank(); ?></td>
+                <td><?php echo rankEq(); ?></td>
                 <td>Yoshi's Crafted World</td>
                 <td>Switch</td>
                 <td>35 h</td>
@@ -295,7 +295,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td><?php echo rank(); ?></td>
+                <td><?php echo rankEq(); ?></td>
                 <td>Minecraft</td>
                 <td>Switch</td>
                 <td>25 h</td>
@@ -303,7 +303,7 @@
                 <td></td>
             </tr>
             <tr>
-                <td><?php echo rank(); ?></td>
+                <td><?php echo rankEq(); ?></td>
                 <td>Nintendo Labo Toy-Con 3</td>
                 <td>Switch</td>
                 <td>25 h</td>
@@ -318,16 +318,16 @@
                 <td>Octobre 2022</td>
                 <td>D'après Game Launcher</td>
             </tr>
-            <tr>
+            <tr class="highlight">
                 <td><?php echo rank(); ?></td>
                 <td>Super Mario Bros. Wonder</td>
                 <td>Switch</td>
-                <td>20 h</td>
-                <td>31 octobre 2023</td>
+                <td>23:04</td>
+                <td>27 janvier 2024</td>
                 <td>
                     <b>Comprend :</b>
-                    <br>Super Mario Bros. Wonder (Ryujinx) (20:00)
-                    <br>Super Mario Bros. Wonder (Switch) (0 h)
+                    <br>Super Mario Bros. Wonder (Ryujinx) (22:04)
+                    <br>Super Mario Bros. Wonder (Switch) (1 h)
                 </td>
             </tr>
         </table>
