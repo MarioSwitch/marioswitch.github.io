@@ -30,8 +30,8 @@
                 <td><?php echo rank(1); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>397 h</td>
-                <td>27 janvier 2024</td>
+                <td>409 h</td>
+                <td>17 février 2024</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -126,6 +126,14 @@
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Hatsune Miku: Project DIVA Mega Mix</td>
+                <td>Switch</td>
+                <td>78:08</td>
+                <td>17 février 2024</td>
+                <td></td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Super Mario Galaxy</td>
@@ -156,14 +164,6 @@
                 <td>Switch</td>
                 <td>65 h</td>
                 <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>Hatsune Miku: Project DIVA Mega Mix</td>
-                <td>Switch</td>
-                <td>64:16</td>
-                <td>27 janvier 2024</td>
                 <td></td>
             </tr>
             <tr>
@@ -286,6 +286,13 @@
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td colspan="2">JEU MYSTÈRE</td>
+                <td>25:30</td>
+                <td>17 février 2024</td>
+                <td></td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>L'atelier du jeu vidéo</td>
@@ -318,7 +325,7 @@
                 <td>Octobre 2022</td>
                 <td>D'après Game Launcher</td>
             </tr>
-            <tr class="highlight">
+            <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Super Mario Bros. Wonder</td>
                 <td>Switch</td>
