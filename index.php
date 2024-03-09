@@ -44,7 +44,7 @@
 			</tr>
 			<tr>
 				<th>Version</th>
-				<td>2.1<br>(26 avril 2023)</td>
+				<td>2.2<br>(9 mars 2024)</td>
 			</tr>
 			<tr>
 				<th><abbr title="Calculé automatiquement en PHP.">Pages publiques</abbr></th>
@@ -63,55 +63,73 @@
 		<h2>Notes de mises à jour</h2>
 		<table class="table-hidden">
 			<tr>
+				<th>2.2</th>
+				<td>9 mars 2024</td>
+				<td>Changement d'éditeur de code<br>Ajout des dates des versions</td>
+			</tr>
+			<tr>
 				<th>2.1</th>
+				<td>26 avril 2023</td>
 				<td>Mise en place de Git<br>Mise à jour du dépôt GitHub</td>
 			</tr>
 			<tr>
 				<th>2.0<br>Hébergement web</th>
+				<td>15 décembre 2022</td>
 				<td>Ajout de PHP<br>Ajout d'une barre de menu</td>
 			</tr>
 			<tr>
 				<th>1.5</th>
+				<td>29 avril 2022</td>
 				<td>Respect des règles HTML5<br>Réorganisation du site</td>
 			</tr>
 			<tr>
 				<th>1.4</th>
+				<td>9 avril 2022</td>
 				<td>Ajout des DOCTYPE et des langues</td>
 			</tr>
 			<tr>
 				<th>1.3</th>
+				<td>19 février 2022</td>
 				<td>Les tableaux possèdent désormais une "class"</td>
 			</tr>
 			<tr>
 				<th>1.2</th>
+				<td>11 février 2022</td>
 				<td>Amélioration de la CSS</td>
 			</tr>
 			<tr>
 				<th>1.1</th>
+				<td>7 février 2022</td>
 				<td>Ajout d'une CSS pour uniformiser le style</td>
 			</tr>
 			<tr>
 				<th>1.0<br>Domaine personnalisé</th>
+				<td>4 février 2022</td>
 				<td>Transfert du site vers <i>marioswitch.fr</i><br>Les versions ne changent plus à la màj d'une page</td>
 			</tr>
 			<tr>
 				<th>Beta 2.0 - 2.1</th>
+				<td>26 janvier - 2 février 2022</td>
 				<td>Ajout de la page <i>Parcheesi</i><br>Améliorations diverses</td>
 			</tr>
 			<tr>
 				<th>Beta 1.0 - 1.4<br>1<sup>re</sup> publication</th>
+				<td>18 - 25 janvier 2022</td>
 				<td>Mise en ligne du site<br>Ajout du réseau Speedrun.com<br>La police <i>Nunito</i> affecte tout le monde<br>Ajustements divers</td>
 			</tr>
 			<tr>
 				<th>Alpha 3.0<br>MàJ technique</th>
+				<td></td>
 				<td>Mise en place de "class"<br>Ajout d'un logo<br>Renommage de la page en "Accueil"</td>
 			</tr>
 			<tr>
 				<th>Alpha 2.0</th>
+				<td></td>
 				<td>Le fond du site est désormais noir<br>Ajout de numéros de versions et de notes de MàJ<br> Ajout d'icônes pour les réseaux<br>Ajouts & corrections diverses</td>
 			</tr>
 			<tr>
 				<th>Alpha 1.0 - 1.3</th>
+				<td></td>
 				<td>Création du site & divers ajouts</td>
 			</tr>
 		</table>

@@ -13,7 +13,7 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 27 janvier 2024).<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 9 mars 2024).<br>
             Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
@@ -30,8 +30,8 @@
                 <td><?php echo rank(1); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>409 h</td>
-                <td>17 février 2024</td>
+                <td>415 h</td>
+                <td>9 mars 2024</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -98,11 +98,11 @@
                 <td><?php echo rank(); ?></td>
                 <td>Fall Guys</td>
                 <td>PC, Switch</td>
-                <td>126:54</td>
-                <td>17 avril 2023</td>
+                <td>133:42</td>
+                <td>9 mars 2024</td>
                 <td>
                     <b>Comprend :</b>
-                    <br>Fall Guys PC (116:54)
+                    <br>Fall Guys PC (123:42)
                     <br>Fall Guys Switch (10 h)
                 </td>
             </tr>
@@ -130,8 +130,8 @@
                 <td><?php echo rank(); ?></td>
                 <td>Hatsune Miku: Project DIVA Mega Mix</td>
                 <td>Switch</td>
-                <td>78:08</td>
-                <td>17 février 2024</td>
+                <td>88:41</td>
+                <td>9 mars 2024</td>
                 <td></td>
             </tr>
             <tr>
@@ -168,28 +168,29 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td>Paper Mario: Color Splash</td>
-                <td>Wii U</td>
-                <td>54:58</td>
-                <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
                 <td>Celeste</td>
                 <td>PC</td>
-                <td>53:58</td>
-                <td>28 septembre 2023</td>
+                <td>57:01</td>
+                <td>9 mars 2024</td>
                 <td>
                     <b>Comprend :</b>
                     <br>Fichier principal (28:30)
                     <br>Speedruns (9:07)
                     <br>Spring Collab (9:01 (7:49 + 1:12))
+                    <br>Celeste II (3:03)
                     <br>Far Away (2:49)
                     <br>B-Side Strawberries (2:45)
                     <br>Strawberry Jam Collab (1:17)
                     <br>NuttyNoon (29 min)
                 </td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
+                <td>Paper Mario: Color Splash</td>
+                <td>Wii U</td>
+                <td>54:58</td>
+                <td>17 avril 2023</td>
+                <td></td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -246,6 +247,13 @@
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td colspan="2">JEU MYSTÈRE</td>
+                <td>35:15</td>
+                <td>9 mars 2024</td>
+                <td></td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Animal Crossing: New Horizons</td>
@@ -284,13 +292,6 @@
                 <td>Wii U</td>
                 <td>26:49</td>
                 <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td colspan="2">JEU MYSTÈRE</td>
-                <td>25:30</td>
-                <td>17 février 2024</td>
                 <td></td>
             </tr>
             <tr>
