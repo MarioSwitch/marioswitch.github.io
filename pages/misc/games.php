@@ -13,7 +13,7 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 9 mars 2024).<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 21 avril 2024).<br>
             Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
@@ -30,8 +30,8 @@
                 <td><?php echo rank(1); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>415 h</td>
-                <td>9 mars 2024</td>
+                <td>427 h</td>
+                <td>21 avril 2024</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -98,11 +98,11 @@
                 <td><?php echo rank(); ?></td>
                 <td>Fall Guys</td>
                 <td>PC, Switch</td>
-                <td>133:42</td>
-                <td>9 mars 2024</td>
+                <td>139:54</td>
+                <td>21 avril 2024</td>
                 <td>
                     <b>Comprend :</b>
-                    <br>Fall Guys PC (123:42)
+                    <br>Fall Guys PC (129:54)
                     <br>Fall Guys Switch (10 h)
                 </td>
             </tr>
@@ -118,20 +118,20 @@
                     <br>Poochy & Yoshi's Woolly World (34:08)
                 </td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Hatsune Miku: Project DIVA Mega Mix</td>
+                <td>Switch</td>
+                <td>102:43</td>
+                <td>21 avril 2024</td>
+                <td></td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Super Mario 3D Land</td>
                 <td>3DS</td>
                 <td>98:56</td>
                 <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>Hatsune Miku: Project DIVA Mega Mix</td>
-                <td>Switch</td>
-                <td>88:41</td>
-                <td>9 mars 2024</td>
                 <td></td>
             </tr>
             <tr>
@@ -192,6 +192,21 @@
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Picross</td>
+                <td>Switch</td>
+                <td>53 h</td>
+                <td>21 avril 2024</td>
+                <td>
+                    <b>Comprend :</b>
+                    <br>Picross S5 (50 h)
+                    <br>Picross S6 Demo (3 h)
+                    <br>Picross S7 Demo (0 h)
+                    <br>Picross S8 Demo (0 h)
+                    <br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (0 h)
+                </td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Cars: Race-o-Rama</td>
@@ -218,21 +233,6 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td>Picross</td>
-                <td>Switch</td>
-                <td>48 h</td>
-                <td>28 septembre 2023</td>
-                <td>
-                    <b>Comprend :</b>
-                    <br>Picross S5 (45 h)
-                    <br>Picross S6 Demo (3 h)
-                    <br>Picross S7 Demo (0 h)
-                    <br>Picross S8 Demo (0 h)
-                    <br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (0 h)
-                </td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
                 <td>Temps Perdu</td>
                 <td>Mobile</td>
                 <td>37:14</td>
@@ -247,7 +247,7 @@
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
-            <tr class="highlight">
+            <tr>
                 <td><?php echo rank(); ?></td>
                 <td colspan="2">JEU MYSTÈRE</td>
                 <td>35:15</td>

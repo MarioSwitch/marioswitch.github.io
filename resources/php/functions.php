@@ -72,4 +72,13 @@
         $index++;
         return $display;
     }
+
+    /**
+     * Echoes a link to a Twitch channel
+     * @param string $username Twitch username
+     * @return void
+     */
+    function echoTwitchChannel(string $username){
+        echo("<a href=\"https://www.twitch.tv/$username\">$username</a>");
+    }
 ?>

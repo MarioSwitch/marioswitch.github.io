@@ -51,6 +51,7 @@
                     <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/misc/discord-rules.php\">Règles Discord</a></div>
                     <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/misc/privacy.php\">Google Play</a></div>
                     <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/misc/games.php\">Jeux les plus joués</a></div>
+                    <div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/misc/twitch.php\">Twitch</a></div>
                 </div>
                 <div class=\"category\">Sous-domaines
                     <div class=\"item\"><a href=\"http://predictions.marioswitch.fr/\">Prédictions</a> (v2)</div>
