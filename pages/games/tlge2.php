@@ -17,13 +17,18 @@
             Il comporte 9 082 niveaux (4 541 niveaux en normal et autant en difficile), des boss (qui reprennent les concepts des niveaux en plus difficile) ainsi que des succès.
         </p>
         <br>
-        <h2>Limites et statistiques (au 21 avril 2024)</h2>
+        <h2>Limites et statistiques (au 6 juin 2024)</h2>
         <p>
-            Sur <abbr title="Basé sur le fait que je soit 146ᵉ et dans le top 0,0526%. 146/0.000526 = 277 567">environ 277 567 joueurs</abbr>, <abbr title="Selon le jeu (car je suis le 146ᵉ, 117 selon Google Play Jeux)">au moins 146 personnes</abbr> ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
-            En effet, le premier en nombre d'XP récupéré, <i>romain22222</i>, est à 5 points du maximum (1 succès), soit à 73 324.<br><br>
-            Je suis le <abbr title="97ᵉ selon Google Play Jeux, 146ᵉ selon le jeu">97<sup>e</sup> / 146<sup>e</sup></abbr> à avoir terminé tous les niveaux et 19<sup>e</sup> / 23<sup>e</sup> en nombre d'XP (66 039 / 73 329, rang 160).
+            Sur environ 278 626 joueurs*, au moins 196 personnes** ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
+            En effet, le premier en nombre d'XP récupéré, <i>romain22222</i>, est à 5 points du maximum (1 succès), soit à 73 324.<br>
+            <br>
+            Je suis le 97<sup>e</sup> / 146<sup>e</sup>*** à avoir terminé tous les niveaux et 17<sup>e</sup> / 20<sup>e</sup>*** en nombre d'XP (66 989 / 73 329, rang 161).<br>
+            <br>
+            * Basé sur le fait que je soit 146ᵉ et dans le top 0,0524%. 146/0.000524 = 278 626.<br>
+            ** 196 personnes au 21 avril 2024, selon ce message : <a href="https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368">https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368</a><br>
+            *** Classement selon Google Play Jeux / selon le jeu lui-même<br>
         </p>
-        <h2>Classement Google Play Jeux (au 21 avril 2024)</h2>
+        <h2>Classement Google Play Jeux (au 6 juin 2024)</h2>
         <table class="table-hidden">
             <tr>
                 <th>Rang</th>
@@ -67,7 +72,7 @@
             </tr>
             <tr class="highlight">
                 <td>6</td>
-                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 8 améliorations),<br>vers mars 2025)</i></td>
+                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 6 améliorations),<br>vers février 2025)</i></td>
                 <td>70 389</td>
             </tr>
             <tr>
@@ -115,6 +120,11 @@
                 <td>tobbug42</td>
                 <td>67 359</td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>MarioSwitch2020</td>
+                <td>66 989</td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Priscillia96</td>
@@ -123,11 +133,6 @@
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>razeuqla</td>
-                <td>66 039</td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>MarioSwitch2020</td>
                 <td>66 039</td>
             </tr>
             <tr>
@@ -161,12 +166,12 @@
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>IkeaPoutre</td>
-                <td>63 329</td>
+                <td>65 049</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Cadaeib65</td>
-                <td>63 094</td>
+                <td>64 044</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -181,7 +186,7 @@
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>UniqueStone47712</td>
-                <td>60 079</td>
+                <td>60 579</td>
             </tr>
             <tr>
                 <th colspan="2"></th>

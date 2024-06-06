@@ -21,10 +21,16 @@
                 <th>Date de sortie</th>
             </tr>
             <tr>
+                <td>1.21</td>
+                <td>Épreuves éprouvantes<br><i>Tricky Trials</i></td>
+                <td><i>Divers</i></td>
+                <td>Juin 2024 (1.21.0)</td>
+            </tr>
+            <tr>
                 <td>1.20</td>
                 <td>Sentiers & Récits<br><i>Trails & Tales</i></td>
                 <td><i>Divers</i></td>
-                <td>2023</td>
+                <td>Avril 2024 (1.20.6)<br>Juin 2023 (1.20.0)</td>
             </tr>
             <tr>
                 <td>1.19</td>
@@ -185,6 +191,7 @@
         <br>
         <h2>Sources & références</h2>
         <ul>
+            <li><a href="https://fr.minecraft.wiki/">Minecraft Wiki</a></li>
             <li><a href="https://minecraft.fandom.com/wiki/Minecraft_Wiki">Fandom Minecraft</a></li>
         </ul>
 	</body>

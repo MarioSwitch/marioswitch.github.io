@@ -13,7 +13,7 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 21 avril 2024).<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 6 juin 2024).<br>
             Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
@@ -30,8 +30,8 @@
                 <td><?php echo rank(1); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>427 h</td>
-                <td>21 avril 2024</td>
+                <td>440 h</td>
+                <td>6 juin 2024</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -94,15 +94,15 @@
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="highlight">
                 <td><?php echo rank(); ?></td>
                 <td>Fall Guys</td>
                 <td>PC, Switch</td>
-                <td>139:54</td>
-                <td>21 avril 2024</td>
+                <td>144:24</td>
+                <td>6 juin 2024</td>
                 <td>
                     <b>Comprend :</b>
-                    <br>Fall Guys PC (129:54)
+                    <br>Fall Guys PC (134:24)
                     <br>Fall Guys Switch (10 h)
                 </td>
             </tr>
@@ -118,7 +118,7 @@
                     <br>Poochy & Yoshi's Woolly World (34:08)
                 </td>
             </tr>
-            <tr class="highlight">
+            <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Hatsune Miku: Project DIVA Mega Mix</td>
                 <td>Switch</td>
@@ -168,6 +168,21 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
+                <td>Picross</td>
+                <td>Switch</td>
+                <td>63 h</td>
+                <td>6 juin 2024</td>
+                <td>
+                    <b>Comprend :</b>
+                    <br>Picross S5 (60 h)
+                    <br>Picross S6 Demo (3 h)
+                    <br>Picross S7 Demo (0 h)
+                    <br>Picross S8 Demo (0 h)
+                    <br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (0 h)
+                </td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Celeste</td>
                 <td>PC</td>
                 <td>57:01</td>
@@ -191,21 +206,6 @@
                 <td>54:58</td>
                 <td>17 avril 2023</td>
                 <td></td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>Picross</td>
-                <td>Switch</td>
-                <td>53 h</td>
-                <td>21 avril 2024</td>
-                <td>
-                    <b>Comprend :</b>
-                    <br>Picross S5 (50 h)
-                    <br>Picross S6 Demo (3 h)
-                    <br>Picross S7 Demo (0 h)
-                    <br>Picross S8 Demo (0 h)
-                    <br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (0 h)
-                </td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -337,6 +337,14 @@
                     <br>Super Mario Bros. Wonder (Ryujinx) (22:04)
                     <br>Super Mario Bros. Wonder (Switch) (1 h)
                 </td>
+            </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Logiart Grimoire</td>
+                <td>PC</td>
+                <td>20:00</td>
+                <td>6 juin 2024</td>
+                <td></td>
             </tr>
         </table>
 	</body>
