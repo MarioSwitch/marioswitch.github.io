@@ -17,18 +17,18 @@
             Il comporte 9 082 niveaux (4 541 niveaux en normal et autant en difficile), des boss (qui reprennent les concepts des niveaux en plus difficile) ainsi que des succès.
         </p>
         <br>
-        <h2>Limites et statistiques (au 6 juin 2024)</h2>
+        <h2>Limites et statistiques (au 17 juin 2024)</h2>
         <p>
             Sur environ 278 626 joueurs*, au moins 196 personnes** ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
             En effet, le premier en nombre d'XP récupéré, <i>romain22222</i>, est à 5 points du maximum (1 succès), soit à 73 324.<br>
             <br>
-            Je suis le 97<sup>e</sup> / 146<sup>e</sup>*** à avoir terminé tous les niveaux et 17<sup>e</sup> / 20<sup>e</sup>*** en nombre d'XP (66 989 / 73 329, rang 161).<br>
+            Je suis le 97<sup>e</sup> / 146<sup>e</sup>*** à avoir terminé tous les niveaux et 16<sup>e</sup> / 19<sup>e</sup>*** en nombre d'XP (67 389 / 73 329, rang 161).<br>
             <br>
             * Basé sur le fait que je soit 146ᵉ et dans le top 0,0524%. 146/0.000524 = 278 626.<br>
             ** 196 personnes au 21 avril 2024, selon ce message : <a href="https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368">https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368</a><br>
             *** Classement selon Google Play Jeux / selon le jeu lui-même<br>
         </p>
-        <h2>Classement Google Play Jeux (au 6 juin 2024)</h2>
+        <h2>Classement Google Play Jeux (au 17 juin 2024)</h2>
         <table class="table-hidden">
             <tr>
                 <th>Rang</th>
@@ -72,7 +72,7 @@
             </tr>
             <tr class="highlight">
                 <td>6</td>
-                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 6 améliorations),<br>vers février 2025)</i></td>
+                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 5 améliorations),<br>vers février 2025)</i></td>
                 <td>70 389</td>
             </tr>
             <tr>
@@ -115,15 +115,20 @@
                 <td>Demurah</td>
                 <td>67 664</td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>MarioSwitch2020</td>
+                <td>67 389</td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>tobbug42</td>
                 <td>67 359</td>
             </tr>
-            <tr class="highlight">
+            <tr>
                 <td><?php echo rank(); ?></td>
-                <td>MarioSwitch2020</td>
-                <td>66 989</td>
+                <td>Guilarai</td>
+                <td>66 139</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -152,11 +157,6 @@
             </tr>
             <tr>
                 <th colspan="3">▲ Accès au salon #vip du serveur Discord ▲</th>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Guilarai</td>
-                <td>65 389</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
