@@ -17,18 +17,18 @@
             Il comporte 9 082 niveaux (4 541 niveaux en normal et autant en difficile), des boss (qui reprennent les concepts des niveaux en plus difficile) ainsi que des succès.
         </p>
         <br>
-        <h2>Limites et statistiques (au 14 juillet 2024)</h2>
+        <h2>Limites et statistiques (au 7 septembre 2024)</h2>
         <p>
-            Sur environ 279 159 joueurs*, au moins 196 personnes** ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
+            Sur environ 280 230 joueurs*, au moins 196 personnes** ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
             En effet, le premier en nombre d'XP récupéré, <i>romain22222</i>, est à 5 points du maximum (1 succès), soit à 73 324.<br>
             <br>
-            Je suis le 97<sup>e</sup> / 146<sup>e</sup>*** à avoir terminé tous les niveaux et 15<sup>e</sup> / 19<sup>e</sup>*** en nombre d'XP (67 944 / 73 329, rang 162).<br>
+            Je suis le 97<sup>e</sup> / 146<sup>e</sup>*** à avoir terminé tous les niveaux et 15<sup>e</sup> / 18<sup>e</sup>*** en nombre d'XP (68 694 / 73 329, rang 163).<br>
             <br>
-            * Basé sur le fait que je soit 146ᵉ et dans le top 0,0523%. 146/0.000523 = 279 159.<br>
+            * Basé sur le fait que je soit 146<sup>e</sup> et dans le top 0,0521 %. 146/0,000521 = 280 230.<br>
             ** 196 personnes au 21 avril 2024, selon ce message : <a href="https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368">https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368</a><br>
             *** Classement selon Google Play Jeux / selon le jeu lui-même<br>
         </p>
-        <h2>Classement Google Play Jeux (au 14 juillet 2024)</h2>
+        <h2>Classement Google Play Jeux (au 7 septembre 2024)</h2>
         <table class="table-hidden">
             <tr>
                 <th>Rang</th>
@@ -72,7 +72,7 @@
             </tr>
             <tr class="highlight">
                 <td>6</td>
-                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 4 améliorations),<br>vers février 2025)</i></td>
+                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 3 améliorations),<br>prévu pour le 10 janv. 2025)</i></td>
                 <td>70 389</td>
             </tr>
             <tr>
@@ -92,6 +92,11 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
+                <td>Kamisamiaw</td>
+                <td>70 204</td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
                 <td>archeacnos</td>
                 <td>70 129</td>
             </tr>
@@ -105,15 +110,15 @@
                 <td>Qennor</td>
                 <td>69 074</td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>MarioSwitch2020</td>
+                <td>68 694</td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>NovaTuRbO</td>
                 <td>68 384</td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>MarioSwitch2020</td>
-                <td>67 944</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -128,12 +133,17 @@
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>IkeaPoutre</td>
+                <td>67 049</td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
+                <td>Cadaeib65</td>
                 <td>66 249</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Guilarai</td>
-                <td>66 139</td>
+                <td>66 144</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -141,17 +151,12 @@
                 <td>66 074</td>
             </tr>
             <tr>
+                <th colspan="3">▲ Accès au salon #vip du serveur Discord ▲</th>
+            </tr>
+            <tr>
                 <td><?php echo rank(); ?></td>
                 <td>razeuqla</td>
                 <td>66 039</td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Kamisamiaw</td>
-                <td>65 999</td>
-            </tr>
-            <tr>
-                <th colspan="3">▲ Accès au salon #vip du serveur Discord ▲</th>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -167,11 +172,6 @@
                 <td><?php echo rank(); ?></td>
                 <td>BordhellickQcsn</td>
                 <td>65 334</td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Cadaeib65</td>
-                <td>64 044</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>

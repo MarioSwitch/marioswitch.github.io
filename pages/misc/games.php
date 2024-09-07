@@ -13,7 +13,7 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 14 juillet 2024).<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 7 septembre 2024).<br>
             Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
@@ -30,8 +30,8 @@
                 <td><?php echo rank(1); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>454 h</td>
-                <td>14 juillet 2024</td>
+                <td>469 h</td>
+                <td>7 septembre 2024</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -106,7 +106,7 @@
                     <br>Fall Guys Switch (10 h)
                 </td>
             </tr>
-            <tr>
+            <tr class="highlight">
                 <td><?php echo rank(); ?></td>
                 <td>Yoshi's Woolly World</td>
                 <td>Wii U, 3DS</td>
@@ -183,6 +183,14 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
+                <td>Logiart Grimoire</td>
+                <td>PC</td>
+                <td>58:42</td>
+                <td>7 septembre 2024</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Celeste</td>
                 <td>PC</td>
                 <td>57:01</td>
@@ -245,14 +253,6 @@
                 <td>DS</td>
                 <td>36:11</td>
                 <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>Logiart Grimoire</td>
-                <td>PC</td>
-                <td>35:24</td>
-                <td>14 juillet 2024</td>
                 <td></td>
             </tr>
             <tr>

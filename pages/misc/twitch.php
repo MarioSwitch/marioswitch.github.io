@@ -217,7 +217,17 @@
                 <td>10 avril 2024</td>
             </tr>
             <tr>
-                <td>39 - 50</td>
+                <td><?php echo rank(); ?></td>
+                <td><?php echoTwitchChannel("cecile_c"); ?></td>
+                <td>14 août 2024</td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
+                <td><?php echoTwitchChannel("tessa_ler"); ?></td>
+                <td>14 août 2024</td>
+            </tr>
+            <tr>
+                <td>41 - 50</td>
                 <td colspan="2"><i>Places libres<br><br>N'hésitez pas à <a href="https://www.twitch.tv/MarioSwitch2020">me suivre sur Twitch</a><br>afin de me soutenir et d'apparaître ici !</i></td>
         </table>
     </body>
