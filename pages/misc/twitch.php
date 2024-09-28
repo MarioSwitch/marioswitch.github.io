@@ -14,7 +14,7 @@
         <h1>Twitch</h1>
         <p>
             Ci-dessous, un <i>hall of fame</i> des spectateurs de ma chaîne Twitch.<br>
-            Cette page a été mise à jour pour la dernière fois le 21 avril 2024.<br>
+            Cette page a été mise à jour pour la dernière fois le 28 septembre 2024.<br>
         </p>
         <h2>Mes 50 premiers followers</h2>
         <p>

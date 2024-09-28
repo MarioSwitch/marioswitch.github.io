@@ -17,18 +17,18 @@
             Il comporte 9 082 niveaux (4 541 niveaux en normal et autant en difficile), des boss (qui reprennent les concepts des niveaux en plus difficile) ainsi que des succès.
         </p>
         <br>
-        <h2>Limites et statistiques (au 7 septembre 2024)</h2>
+        <h2>Limites et statistiques (au 28 septembre 2024)</h2>
         <p>
-            Sur environ 280 230 joueurs*, au moins 196 personnes** ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
+            Sur environ 280 769 joueurs*, au moins 196 personnes** ont terminé tous les niveaux, mais aucun n'a obtenu tous les points d'expérience (73 329).<br>
             En effet, le premier en nombre d'XP récupéré, <i>romain22222</i>, est à 5 points du maximum (1 succès), soit à 73 324.<br>
             <br>
-            Je suis le 97<sup>e</sup> / 146<sup>e</sup>*** à avoir terminé tous les niveaux et 15<sup>e</sup> / 18<sup>e</sup>*** en nombre d'XP (68 694 / 73 329, rang 163).<br>
+            Je suis le 97<sup>e</sup> / 146<sup>e</sup>*** à avoir terminé tous les niveaux et 14<sup>e</sup> / 17<sup>e</sup>*** en nombre d'XP (69 094 / 73 329, rang 163).<br>
             <br>
-            * Basé sur le fait que je soit 146<sup>e</sup> et dans le top 0,0521 %. 146/0,000521 = 280 230.<br>
+            * Basé sur le fait que je soit 146<sup>e</sup> et dans le top 0,0520 %. 146/0,000520 = 280 769.<br>
             ** 196 personnes au 21 avril 2024, selon ce message : <a href="https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368">https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368</a><br>
             *** Classement selon Google Play Jeux / selon le jeu lui-même<br>
         </p>
-        <h2>Classement Google Play Jeux (au 7 septembre 2024)</h2>
+        <h2>Classement Google Play Jeux (au 28 septembre 2024)</h2>
         <table class="table-hidden">
             <tr>
                 <th>Rang</th>
@@ -72,7 +72,7 @@
             </tr>
             <tr class="highlight">
                 <td>6</td>
-                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 3 améliorations),<br>prévu pour le 10 janv. 2025)</i></td>
+                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 2 améliorations),<br>5 déc. 2024 - 1<sup>er</sup> janv. 2025)</i></td>
                 <td>70 389</td>
             </tr>
             <tr>
@@ -105,20 +105,25 @@
                 <td>ArthurOuvrard49</td>
                 <td>69 299</td>
             </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>MarioSwitch2020</td>
+                <td>69 094</td>
+            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Qennor</td>
                 <td>69 074</td>
             </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>MarioSwitch2020</td>
-                <td>68 694</td>
-            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>NovaTuRbO</td>
                 <td>68 384</td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
+                <td>IkeaPoutre</td>
+                <td>68 149</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -129,11 +134,6 @@
                 <td><?php echo rank(); ?></td>
                 <td>tobbug42</td>
                 <td>67 359</td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>IkeaPoutre</td>
-                <td>67 049</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
