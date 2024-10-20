@@ -13,7 +13,7 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 28 septembre 2024).<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 20 octobre 2024).<br>
             Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
@@ -30,8 +30,8 @@
                 <td><?php echo rank(1); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>473 h</td>
-                <td>28 septembre 2024</td>
+                <td>481 h</td>
+                <td>20 octobre 2024</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -110,11 +110,11 @@
                 <td><?php echo rank(); ?></td>
                 <td>Yoshi's Woolly World</td>
                 <td>Wii U, 3DS</td>
-                <td>121:55</td>
-                <td>28 septembre 2024</td>
+                <td>123:53</td>
+                <td>20 octobre 2024</td>
                 <td>
                     <b>Comprend :</b>
-                    <br>Yoshi's Woolly World (87:47)
+                    <br>Yoshi's Woolly World (89:45)
                     <br>Poochy & Yoshi's Woolly World (34:08)
                 </td>
             </tr>
@@ -241,6 +241,13 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
+                <td colspan="2">JEU MYSTÈRE</td>
+                <td>43:15</td>
+                <td>20 octobre 2024</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Temps Perdu</td>
                 <td>Mobile</td>
                 <td>37:14</td>
@@ -253,13 +260,6 @@
                 <td>DS</td>
                 <td>36:11</td>
                 <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td colspan="2">JEU MYSTÈRE</td>
-                <td>35:15</td>
-                <td>9 mars 2024</td>
                 <td></td>
             </tr>
             <tr>
