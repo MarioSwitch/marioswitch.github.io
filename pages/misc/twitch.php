@@ -14,7 +14,7 @@
         <h1>Twitch</h1>
         <p>
             Ci-dessous, un <i>hall of fame</i> des spectateurs de ma chaîne Twitch.<br>
-            Cette page a été mise à jour pour la dernière fois le 28 septembre 2024.<br>
+            Cette page a été mise à jour pour la dernière fois le 30 novembre 2024.<br>
         </p>
         <h2>Mes 50 premiers followers</h2>
         <p>
@@ -78,11 +78,6 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td><?php echoTwitchChannel("JoJo_Bjorn"); ?></td>
-                <td>19 mars 2022</td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
                 <td><?php echoTwitchChannel("komasan_26"); ?></td>
                 <td>3 mai 2022</td>
             </tr>
@@ -98,7 +93,7 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td><?php echoTwitchChannel("napolexn"); ?></td>
+                <td><?php echoTwitchChannel("yaz_ii"); ?></td>
                 <td>12 juin 2022</td>
             </tr>
             <tr>
@@ -133,7 +128,7 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td><?php echoTwitchChannel("LonmeYT"); ?></td>
+                <td><?php echoTwitchChannel("Naylome"); ?></td>
                 <td>1 février 2023</td>
             </tr>
             <tr>
@@ -173,7 +168,7 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td><?php echoTwitchChannel("aurore_gaming666"); ?></td>
+                <td><?php echoTwitchChannel("Aurore_TV666"); ?></td>
                 <td>10 décembre 2023</td>
             </tr>
             <tr>
@@ -227,7 +222,12 @@
                 <td>14 août 2024</td>
             </tr>
             <tr>
-                <td>41 - 50</td>
+                <td><?php echo rank(); ?></td>
+                <td><?php echoTwitchChannel("hj_fave1"); ?></td>
+                <td>27 novembre 2024</td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?> - 50</td>
                 <td colspan="2"><i>Places libres<br><br>N'hésitez pas à <a href="https://www.twitch.tv/MarioSwitch2020">me suivre sur Twitch</a><br>afin de me soutenir et d'apparaître ici !</i></td>
         </table>
     </body>

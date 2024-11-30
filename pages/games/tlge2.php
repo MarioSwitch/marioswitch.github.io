@@ -17,21 +17,21 @@
             Il comporte 9 082 niveaux (4 541 niveaux en normal et autant en difficile), des boss (qui reprennent les concepts des niveaux en plus difficile) ainsi que des succès.
         </p>
         <br>
-        <h2>Limites et statistiques (au 20 octobre 2024)</h2>
+        <h2>Limites et statistiques (au 30 novembre 2024)</h2>
         <p>
-            Sur environ 281 310 joueurs<sup>[1]</sup>, au moins 196 personnes<sup>[2]</sup> ont terminé tous les niveaux, et <b>un seul</b> a obtenu tous les points d'expérience (73 329<sup>[3]</sup>).<br>
+            Sur environ 281 853 joueurs<sup>[1]</sup>, au moins 196 personnes<sup>[2]</sup> ont terminé tous les niveaux, et <b>un seul</b> a obtenu tous les points d'expérience (73 329<sup>[3]</sup>).<br>
             En effet, <i>romain22222</i> a débloqué son dernier succès le 1<sup>er</sup> octobre 2024, et devient le premier et seul joueur à terminer le jeu à 100 %<sup>[4]</sup>.<br>
             <br>
-            Je suis le 97<sup>e</sup> / 146<sup>e</sup><sup>[5]</sup> à avoir terminé tous les niveaux et 13<sup>e</sup> / 15<sup>e</sup><sup>[5]</sup> en nombre d'XP (69 644 / 73 379, rang 164).<br>
+            Je suis le 97<sup>e</sup> / 146<sup>e</sup><sup>[5]</sup> à avoir terminé tous les niveaux et 8<sup>e</sup> / 8<sup>e[5]</sup> en nombre d'XP (70 394 / 73 379, rang 165).<br>
             <br>
-            <sup>[1]</sup> Basé sur le fait que je soit 146<sup>e</sup> et dans le top 0,0519 %. 146/0,000519 = 281 310.<br>
+            <sup>[1]</sup> Basé sur le fait que je soit 146<sup>e</sup> et dans le top 0,0518 %. 146/0,000518 = 281 853.<br>
             <sup>[2]</sup> 196 personnes au 21 avril 2024, selon ce message : <a href="https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368">https://discord.com/channels/571664895414763530/571673632812564482/1231608721113612368</a><br>
             <sup>[3]</sup> Le nombre de points d'expérience maximum se situe en réalité entre 73 329 et 73 379 à cause de mises à jour ayant inséré des décalages pour certains joueurs.<br>
             <sup>[4]</sup> Concernant la version 1.4.27 (dernière version à ce jour). De futures mises à jour ajoutant du nouveau contenu pourraient être publiées, et ainsi lui « retirer » le 100 %.<br>
             <sup>[5]</sup> Classement selon Google Play Jeux / selon le jeu lui-même<br>
         </p>
         <br>
-        <h2>Classement Google Play Jeux (au 20 octobre 2024)</h2>
+        <h2>Classement Google Play Jeux (au 30 novembre 2024)</h2>
         <table class="table-hidden">
             <tr>
                 <th>Rang</th>
@@ -82,10 +82,16 @@
                 <td>795 – 845</td>
             </tr>
             <tr class="highlight">
-                <td>6</td>
-                <td><i>MarioSwitch2020<br>(tous les boosts<br>(encore 1 amélioration),<br>30 nov. - 14 déc. 2024)</i></td>
+                <td><?php echo rank(); ?></td>
+                <td>MarioSwitch2020</td>
                 <td>70 394</td>
                 <td>2 985</td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
+                <td>IkeaPoutre</td>
+                <td>70 349</td>
+                <td>2 980 – 3 030</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -117,17 +123,11 @@
                 <td>70 129</td>
                 <td>3 200 – 3 250</td>
             </tr>
-            <tr class="highlight">
-                <td><?php echo rank(); ?></td>
-                <td>MarioSwitch2020</td>
-                <td>69 644</td>
-                <td>3 735</td>
-            </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>ArthurOuvrard49</td>
-                <td>69 299</td>
-                <td>4 030 – 4 080</td>
+                <td>69 419</td>
+                <td>3 910 – 3 960</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -137,9 +137,15 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td>IkeaPoutre</td>
-                <td>68 699</td>
-                <td>4 630 – 4 680</td>
+                <td>Guilarai</td>
+                <td>68 894</td>
+                <td>4 435 – 4 485</td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
+                <td>Cadaeib65</td>
+                <td>68 544</td>
+                <td>4 785 – 4 835</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -158,18 +164,6 @@
                 <td>tobbug42</td>
                 <td>67 359</td>
                 <td>5 970 – 6 020</td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Cadaeib65</td>
-                <td>66 249</td>
-                <td>7 080 – 7 130</td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Guilarai</td>
-                <td>66 144</td>
-                <td>7 185 – 7 235</td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
