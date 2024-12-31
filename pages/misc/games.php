@@ -13,8 +13,8 @@
         <?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 30 novembre 2024).<br>
-            Seuls les jeux comptabilisant plus de 20 heures sont mentionnés ici.<br>
+            Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 31 décembre 2024).<br>
+            Seuls les jeux comptabilisant plus de 25 heures sont mentionnés ici.<br>
             Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
         </p>
         <table class="table-hidden">
@@ -30,8 +30,8 @@
                 <td><?php echo rank(1); ?></td>
                 <td>The Longest Game Ever 2</td>
                 <td>Mobile</td>
-                <td>488 h</td>
-                <td>30 novembre 2024</td>
+                <td>491 h</td>
+                <td>31 décembre 2024</td>
                 <td>D'après les succès du jeu</td>
             </tr>
             <tr>
@@ -62,20 +62,20 @@
                 <td><?php echo rank(); ?></td>
                 <td>Super Mario Odyssey</td>
                 <td>Switch</td>
-                <td>190 h</td>
-                <td>17 avril 2023</td>
+                <td>194:22</td>
+                <td>31 décembre 2024</td>
                 <td></td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Super Mario Maker</td>
                 <td>Wii U, Switch</td>
-                <td>172:53</td>
-                <td>17 avril 2023</td>
+                <td>176:45</td>
+                <td>31 décembre 2024</td>
                 <td>
                     <b>Comprend :</b>
                     <br>Super Mario Maker (127:53)
-                    <br>Super Mario Maker 2 (45 h)
+                    <br>Super Mario Maker 2 (48:52)
                 </td>
             </tr>
             <tr>
@@ -88,23 +88,23 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
+                <td>Fall Guys</td>
+                <td>PC, Switch</td>
+                <td>151:10</td>
+                <td>31 décembre 2024</td>
+                <td>
+                    <b>Comprend :</b>
+                    <br>Fall Guys PC (137:24)
+                    <br>Fall Guys Switch (13:46)
+                </td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
                 <td>Super Mario 3D World</td>
                 <td>Wii U</td>
                 <td>147:54</td>
                 <td>17 avril 2023</td>
                 <td></td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Fall Guys</td>
-                <td>PC, Switch</td>
-                <td>144:24</td>
-                <td>6 juin 2024</td>
-                <td>
-                    <b>Comprend :</b>
-                    <br>Fall Guys PC (134:24)
-                    <br>Fall Guys Switch (10 h)
-                </td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -121,13 +121,14 @@
             <tr class="highlight">
                 <td><?php echo rank(); ?></td>
                 <td>Hatsune Miku: Project DIVA Mega Mix</td>
-                <td>Switch</td>
-                <td>117:29</td>
-                <td>30 novembre 2024</td>
+                <td>PC, Switch</td>
+                <td>127:10</td>
+                <td>31 décembre 2024</td>
                 <td>
                     <b>Comprend :</b>
                     <br>Hatsune Miku: Project DIVA Mega Mix (102:43)
-                    <br>初音ミク Project DIVA MEGA39's (14:46)
+                    <br>初音ミク Project DIVA MEGA39's (17:33)
+                    <br>Hatsune Miku: Project DIVA Mega Mix+ (6:54)
                 </td>
             </tr>
             <tr>
@@ -156,17 +157,34 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td>Mario Kart 8</td>
-                <td>Wii U</td>
-                <td>67:47</td>
-                <td>17 avril 2023</td>
-                <td></td>
+                <td>Picross</td>
+                <td>Switch</td>
+                <td>72:53</td>
+                <td>31 décembre 2024</td>
+                <td>
+                    <b>Comprend :</b>
+                    <br>Picross S5 (63:41)
+                    <br>Picross S4 Demo (3:47)
+                    <br>Picross S6 Demo (3:19)
+                    <br>Picross S5 Demo (2:06)
+                    <br>Picross S7 Demo (– h)
+                    <br>Picross S8 Demo (– h)
+                    <br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (– h)
+                </td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Rayman Legends</td>
                 <td>Switch</td>
-                <td>65 h</td>
+                <td>70:41</td>
+                <td>31 décembre 2024</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
+                <td>Mario Kart 8</td>
+                <td>Wii U</td>
+                <td>67:47</td>
                 <td>17 avril 2023</td>
                 <td></td>
             </tr>
@@ -176,21 +194,6 @@
                 <td>64:20</td>
                 <td>30 novembre 2024</td>
                 <td></td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Picross</td>
-                <td>Switch</td>
-                <td>63 h</td>
-                <td>6 juin 2024</td>
-                <td>
-                    <b>Comprend :</b>
-                    <br>Picross S5 (60 h)
-                    <br>Picross S6 Demo (3 h)
-                    <br>Picross S7 Demo (0 h)
-                    <br>Picross S8 Demo (0 h)
-                    <br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (0 h)
-                </td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
@@ -235,19 +238,43 @@
                 <td></td>
             </tr>
             <tr>
+                <td><?php echo rankEq(); ?></td>
+                <td>Paper Mario: The Origami King</td>
+                <td>Switch</td>
+                <td>51:02</td>
+                <td>31 décembre 2024</td>
+                <td></td>
+            </tr>
+            <tr>
                 <td><?php echo rank(); ?></td>
                 <td>Go Vacation</td>
                 <td>Switch</td>
-                <td>50 h</td>
-                <td>17 avril 2023</td>
+                <td>50:44</td>
+                <td>31 décembre 2024</td>
+                <td></td>
+            </tr>
+            <tr class="highlight">
+                <td><?php echo rank(); ?></td>
+                <td>Donkey Kong Country: Tropical Freeze</td>
+                <td>Wii U</td>
+                <td>45:04</td>
+                <td>31 décembre 2024</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><?php echo rank(); ?></td>
+                <td>Animal Crossing: New Horizons</td>
+                <td>Switch</td>
+                <td>39:59</td>
+                <td>31 décembre 2024</td>
                 <td></td>
             </tr>
             <tr>
                 <td><?php echo rankEq(); ?></td>
-                <td>Paper Mario: The Origami King</td>
+                <td>Yoshi's Crafted World</td>
                 <td>Switch</td>
-                <td>50 h</td>
-                <td>17 avril 2023</td>
+                <td>38:02</td>
+                <td>31 décembre 2024</td>
                 <td></td>
             </tr>
             <tr>
@@ -281,34 +308,26 @@
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td>Animal Crossing: New Horizons</td>
+                <td>Kirby et le monde oublié</td>
                 <td>Switch</td>
-                <td>35 h</td>
-                <td>17 avril 2023</td>
+                <td>34:29</td>
+                <td>31 décembre 2024</td>
                 <td></td>
             </tr>
             <tr>
                 <td><?php echo rankEq(); ?></td>
-                <td>Yoshi's Crafted World</td>
+                <td>Minecraft</td>
                 <td>Switch</td>
-                <td>35 h</td>
-                <td>17 avril 2023</td>
+                <td>30:42</td>
+                <td>31 décembre 2024</td>
                 <td></td>
             </tr>
             <tr>
                 <td><?php echo rank(); ?></td>
-                <td>Donkey Kong Country: Tropical Freeze</td>
-                <td>Wii U</td>
-                <td>31:16</td>
-                <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Kirby et le monde oublié</td>
+                <td>L'atelier du jeu vidéo</td>
                 <td>Switch</td>
-                <td>30 h</td>
-                <td>17 avril 2023</td>
+                <td>28:21</td>
+                <td>31 décembre 2024</td>
                 <td></td>
             </tr>
             <tr>
@@ -320,36 +339,12 @@
                 <td></td>
             </tr>
             <tr>
-                <td><?php echo rank(); ?></td>
-                <td>L'atelier du jeu vidéo</td>
-                <td>Switch</td>
-                <td>25 h</td>
-                <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><?php echo rankEq(); ?></td>
-                <td>Minecraft</td>
-                <td>Switch</td>
-                <td>25 h</td>
-                <td>17 avril 2023</td>
-                <td></td>
-            </tr>
-            <tr>
                 <td><?php echo rankEq(); ?></td>
                 <td>Nintendo Labo Toy-Con 3</td>
                 <td>Switch</td>
-                <td>25 h</td>
-                <td>17 avril 2023</td>
+                <td>25:08</td>
+                <td>31 décembre 2024</td>
                 <td></td>
-            </tr>
-            <tr>
-                <td><?php echo rank(); ?></td>
-                <td>Mundijuegos</td>
-                <td>Mobile</td>
-                <td>24:08</td>
-                <td>Octobre 2022</td>
-                <td>D'après Game Launcher</td>
             </tr>
         </table>
 	</body>
