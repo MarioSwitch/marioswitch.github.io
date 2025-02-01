@@ -13,7 +13,7 @@
 		<?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-			Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 31 décembre 2024).<br>
+			Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 1 février 2025).<br>
 			Seuls les jeux comptabilisant plus de 25 heures sont mentionnés ici.<br>
 			Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
 		</p>
@@ -26,12 +26,12 @@
 				<th>Mise à jour</th>
 				<th>Notes</th>
 			</tr>
-			<tr class="highlight">
+			<tr>
 				<td><?= rank(1); ?></td>
 				<td>The Longest Game Ever 2</td>
 				<td>Mobile</td>
-				<td>491 h</td>
-				<td>31 décembre 2024</td>
+				<td>493 h</td>
+				<td>1 février 2025</td>
 				<td>D'après les succès du jeu</td>
 			</tr>
 			<tr>
@@ -106,6 +106,19 @@
 				<td>17 avril 2023</td>
 				<td></td>
 			</tr>
+			<tr class="highlight">
+				<td><?= rank(); ?></td>
+				<td>Hatsune Miku: Project DIVA Mega Mix</td>
+				<td>PC, Switch</td>
+				<td>147:23</td>
+				<td>1 février 2025</td>
+				<td>
+					<b>Comprend :</b>
+					<br>Hatsune Miku: Project DIVA Mega Mix (106:14)
+					<br>Hatsune Miku: Project DIVA Mega Mix+ (23:36)
+					<br>初音ミク Project DIVA MEGA39's (17:33)
+				</td>
+			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
 				<td>Yoshi's Woolly World</td>
@@ -116,19 +129,6 @@
 					<b>Comprend :</b>
 					<br>Yoshi's Woolly World (94:20)
 					<br>Poochy & Yoshi's Woolly World (34:08)
-				</td>
-			</tr>
-			<tr class="highlight">
-				<td><?= rank(); ?></td>
-				<td>Hatsune Miku: Project DIVA Mega Mix</td>
-				<td>PC, Switch</td>
-				<td>127:10</td>
-				<td>31 décembre 2024</td>
-				<td>
-					<b>Comprend :</b>
-					<br>Hatsune Miku: Project DIVA Mega Mix (102:43)
-					<br>初音ミク Project DIVA MEGA39's (17:33)
-					<br>Hatsune Miku: Project DIVA Mega Mix+ (6:54)
 				</td>
 			</tr>
 			<tr>
@@ -157,23 +157,6 @@
 			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
-				<td>Picross</td>
-				<td>Switch</td>
-				<td>72:53</td>
-				<td>31 décembre 2024</td>
-				<td>
-					<b>Comprend :</b>
-					<br>Picross S5 (63:41)
-					<br>Picross S4 Demo (3:47)
-					<br>Picross S6 Demo (3:19)
-					<br>Picross S5 Demo (2:06)
-					<br>Picross S7 Demo (– h)
-					<br>Picross S8 Demo (– h)
-					<br><abbr title="Picross S Genesis & Master System Edition">PCSGMSE</abbr> Demo (– h)
-				</td>
-			</tr>
-			<tr>
-				<td><?= rank(); ?></td>
 				<td>Rayman Legends</td>
 				<td>Switch</td>
 				<td>70:41</td>
@@ -193,6 +176,14 @@
 				<td colspan="2">JEU MYSTÈRE</td>
 				<td>64:20</td>
 				<td>30 novembre 2024</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><?= rank(); ?></td>
+				<td>Picross S5</td>
+				<td>Switch</td>
+				<td>63:41</td>
+				<td>31 décembre 2024</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -253,12 +244,12 @@
 				<td>31 décembre 2024</td>
 				<td></td>
 			</tr>
-			<tr class="highlight">
+			<tr>
 				<td><?= rank(); ?></td>
 				<td>Donkey Kong Country: Tropical Freeze</td>
 				<td>Wii U</td>
-				<td>45:04</td>
-				<td>31 décembre 2024</td>
+				<td>46:15</td>
+				<td>1 février 2025</td>
 				<td></td>
 			</tr>
 			<tr>
