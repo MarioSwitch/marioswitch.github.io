@@ -13,7 +13,7 @@
 		<?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-			Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 1 février 2025).<br>
+			Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 18 avril 2025).<br>
 			Seuls les jeux comptabilisant plus de 25 heures sont mentionnés ici.<br>
 			Les jeux en surbrillance sont ceux auxquels je joue activement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.
 		</p>
@@ -30,8 +30,8 @@
 				<td><?= rank(1); ?></td>
 				<td>The Longest Game Ever 2</td>
 				<td>Mobile</td>
-				<td>493 h</td>
-				<td>1 février 2025</td>
+				<td>494 h</td>
+				<td>18 avril 2025</td>
 				<td>D'après les succès du jeu</td>
 			</tr>
 			<tr>
@@ -65,6 +65,19 @@
 				<td>194:22</td>
 				<td>31 décembre 2024</td>
 				<td></td>
+			</tr>
+			<tr class="highlight">
+				<td><?= rank(); ?></td>
+				<td>Hatsune Miku: Project DIVA Mega Mix</td>
+				<td>PC, Switch</td>
+				<td>181:53</td>
+				<td>18 avril 2025</td>
+				<td>
+					<b>Comprend :</b>
+					<br>Hatsune Miku: Project DIVA Mega Mix (106:14)
+					<br>Hatsune Miku: Project DIVA Mega Mix+ (58:06)
+					<br>初音ミク Project DIVA MEGA39's (17:33)
+				</td>
 			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
@@ -105,19 +118,6 @@
 				<td>147:54</td>
 				<td>17 avril 2023</td>
 				<td></td>
-			</tr>
-			<tr class="highlight">
-				<td><?= rank(); ?></td>
-				<td>Hatsune Miku: Project DIVA Mega Mix</td>
-				<td>PC, Switch</td>
-				<td>147:23</td>
-				<td>1 février 2025</td>
-				<td>
-					<b>Comprend :</b>
-					<br>Hatsune Miku: Project DIVA Mega Mix (106:14)
-					<br>Hatsune Miku: Project DIVA Mega Mix+ (23:36)
-					<br>初音ミク Project DIVA MEGA39's (17:33)
-				</td>
 			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
@@ -165,17 +165,17 @@
 			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
-				<td>Mario Kart 8</td>
-				<td>Wii U</td>
-				<td>67:47</td>
-				<td>17 avril 2023</td>
+				<td colspan="2">JEU MYSTÈRE</td>
+				<td>69:20</td>
+				<td>18 avril 2025</td>
 				<td></td>
 			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
-				<td colspan="2">JEU MYSTÈRE</td>
-				<td>64:20</td>
-				<td>30 novembre 2024</td>
+				<td>Mario Kart 8</td>
+				<td>Wii U</td>
+				<td>67:47</td>
+				<td>17 avril 2023</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -252,6 +252,14 @@
 				<td>1 février 2025</td>
 				<td></td>
 			</tr>
+			<tr class="highlight">
+				<td><?= rank(); ?></td>
+				<td>NSFW Solitaire</td>
+				<td>PC</td>
+				<td>44:24</td>
+				<td>18 avril 2025</td>
+				<td></td>
+			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
 				<td>Animal Crossing: New Horizons</td>
@@ -262,19 +270,19 @@
 			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
+				<td>Temps Perdu</td>
+				<td>Mobile</td>
+				<td>38:55</td>
+				<td>18 avril 2025</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><?= rank(); ?></td>
 				<td>Yoshi's Crafted World</td>
 				<td>Switch</td>
 				<td>38:02</td>
 				<td>31 décembre 2024</td>
 				<td></td>
-			</tr>
-			<tr>
-				<td><?= rank(); ?></td>
-				<td>Temps Perdu</td>
-				<td>Mobile</td>
-				<td>37:14</td>
-				<td>Octobre 2022</td>
-				<td>D'après Game Launcher</td>
 			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
