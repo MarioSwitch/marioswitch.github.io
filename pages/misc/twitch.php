@@ -14,7 +14,7 @@
 		<h1>Twitch</h1>
 		<p>
 			Ci-dessous, un <i>hall of fame</i> des spectateurs de ma chaîne Twitch.<br>
-			Cette page a été mise à jour pour la dernière fois le 30 novembre 2024.<br>
+			Cette page a été mise à jour pour la dernière fois le 1<sup>er</sup> mai 2025.<br>
 		</p>
 		<h2>Mes 50 premiers followers</h2>
 		<p>
@@ -93,7 +93,7 @@
 			</tr>
 			<tr>
 				<td><?php echo rank(); ?></td>
-				<td><?php echoTwitchChannel("yaz_ii"); ?></td>
+				<td><?php echoTwitchChannel("arracheur2valises"); ?></td>
 				<td>12 juin 2022</td>
 			</tr>
 			<tr>
@@ -225,6 +225,31 @@
 				<td><?php echo rank(); ?></td>
 				<td><?php echoTwitchChannel("hj_fave1"); ?></td>
 				<td>27 novembre 2024</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("lemon_fischl"); ?></td>
+				<td>30 mars 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("evian7250"); ?></td>
+				<td>24 avril 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("jerelith_"); ?></td>
+				<td>30 avril 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("Master_T_M_B"); ?></td>
+				<td>30 avril 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("Dessmeon"); ?></td>
+				<td>30 avril 2025</td>
 			</tr>
 			<tr>
 				<td><?php echo rank(); ?> - 50</td>
