@@ -19,7 +19,7 @@
 			Aucune autre donnée personnelle n'est traitée par l'application.<br>
 		</p>
 		<br>
-		<h2>Enigma et ScrabbHelper</h2>
+		<h2>Enigma, ScrabbHelper, TLGE2 Friend Code</h2>
 		<p>
 			Aucune donnée personnelle n'est traitée par ces applications.<br>
 		</p>
