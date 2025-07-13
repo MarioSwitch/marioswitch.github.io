@@ -81,4 +81,17 @@
 	function echoTwitchChannel(string $username){
 		echo("<a href=\"https://www.twitch.tv/$username\">$username</a>");
 	}
+
+	/**
+	 * Returns the remaining XP in TLGE2
+	 * @param int $xp Current XP
+	 * @return string Remaining XP in the format "low – high"
+	 */
+	function remaining($xp): string{
+		$maxLow = 73329;
+		$maxHigh = 73379;
+		$remainingLow = number_format($maxLow - $xp, 0, ',', ' ');
+		$remainingHigh = number_format($maxHigh - $xp, 0, ',', ' ');
+		return "$remainingLow – $remainingHigh";
+	}
 ?>

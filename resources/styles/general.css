@@ -13,6 +13,7 @@ table{border-collapse:collapse;text-align:center}
 .float{float:left;margin-right:10px;margin-bottom:50px}
 .float-clear{clear:both}
 .highlight{background-color:darkslategrey}
+.off{color:grey}
 a:link{color:lightcoral;background-color:transparent;text-decoration:none}
 a:visited{color:lightcoral;background-color:transparent;text-decoration:none}
 a:hover{color:lightcoral;background-color:transparent;text-decoration:underline}

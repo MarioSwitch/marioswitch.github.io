@@ -28,6 +28,7 @@
 			<table class="table-hidden">
 				<tr>
 					<td></td>
+					<td>HH:MM:SS:FF</td>
 					<td>Heures</td>
 					<td>Minutes</td>
 					<td>Secondes</td>
@@ -35,6 +36,7 @@
 				</tr>
 				<tr>
 					<td>Début</td>
+					<td><input style="width: 100px;" type="string" name="startHHMMSSFF" placeholder="00:00:00:00" <?= !empty($_REQUEST["startHHMMSSFF"]) ? "value=\"" . $_REQUEST["startHHMMSSFF"] . "\"" : "" ?>></td>
 					<td><input type="number" name="startHours" placeholder="0" <?= !empty($_REQUEST["startHours"]) ? "value=\"" . $_REQUEST["startHours"] . "\"" : "" ?>></td>
 					<td><input type="number" name="startMinutes" placeholder="0" <?= !empty($_REQUEST["startMinutes"]) ? "value=\"" . $_REQUEST["startMinutes"] . "\"" : "" ?>></td>
 					<td><input type="number" name="startSeconds" placeholder="0" <?= !empty($_REQUEST["startSeconds"]) ? "value=\"" . $_REQUEST["startSeconds"] . "\"" : "" ?>></td>
@@ -42,6 +44,7 @@
 				</tr>
 				<tr>
 					<td>Fin</td>
+					<td><input style="width: 100px;" type="string" name="endHHMMSSFF" placeholder="00:00:00:00" <?= !empty($_REQUEST["endHHMMSSFF"]) ? "value=\"" . $_REQUEST["endHHMMSSFF"] . "\"" : "" ?>></td>
 					<td><input type="number" name="endHours" placeholder="0" <?= !empty($_REQUEST["endHours"]) ? "value=\"" . $_REQUEST["endHours"] . "\"" : "" ?>></td>
 					<td><input type="number" name="endMinutes" placeholder="0" <?= !empty($_REQUEST["endMinutes"]) ? "value=\"" . $_REQUEST["endMinutes"] . "\"" : "" ?>></td>
 					<td><input type="number" name="endSeconds" placeholder="0" <?= !empty($_REQUEST["endSeconds"]) ? "value=\"" . $_REQUEST["endSeconds"] . "\"" : "" ?>></td>
@@ -53,14 +56,34 @@
 		</form>
 		<?php
 			$fps =    !empty($_REQUEST["fps"])          ? $_REQUEST["fps"]          : 60;
-			$startH = !empty($_REQUEST["startHours"])   ? $_REQUEST["startHours"]   : 0;
-			$startM = !empty($_REQUEST["startMinutes"]) ? $_REQUEST["startMinutes"] : 0;
-			$startS = !empty($_REQUEST["startSeconds"]) ? $_REQUEST["startSeconds"] : 0;
-			$startF = !empty($_REQUEST["startFrames"])  ? $_REQUEST["startFrames"]  : 0;
-			$endH =   !empty($_REQUEST["endHours"])     ? $_REQUEST["endHours"]     : 0;
-			$endM =   !empty($_REQUEST["endMinutes"])   ? $_REQUEST["endMinutes"]   : 0;
-			$endS =   !empty($_REQUEST["endSeconds"])   ? $_REQUEST["endSeconds"]   : 0;
-			$endF =   !empty($_REQUEST["endFrames"])    ? $_REQUEST["endFrames"]    : 0;
+
+			$startHHMMSSFF = !empty($_REQUEST["startHHMMSSFF"]) ? $_REQUEST["startHHMMSSFF"] : "00:00:00:00";
+			$startHHMMSSFF = explode(":", $startHHMMSSFF);
+			if(count($startHHMMSSFF) == 4){
+				$startH = intval($startHHMMSSFF[0]);
+				$startM = intval($startHHMMSSFF[1]);
+				$startS = intval($startHHMMSSFF[2]);
+				$startF = intval($startHHMMSSFF[3]);
+			} else {
+				$startH = !empty($_REQUEST["startHours"])   ? $_REQUEST["startHours"]   : 0;
+				$startM = !empty($_REQUEST["startMinutes"]) ? $_REQUEST["startMinutes"] : 0;
+				$startS = !empty($_REQUEST["startSeconds"]) ? $_REQUEST["startSeconds"] : 0;
+				$startF = !empty($_REQUEST["startFrames"])  ? $_REQUEST["startFrames"]  : 0;
+			}
+
+			$endHHMMSSFF = !empty($_REQUEST["endHHMMSSFF"]) ? $_REQUEST["endHHMMSSFF"] : "00:00:00:00";
+			$endHHMMSSFF = explode(":", $endHHMMSSFF);
+			if(count($endHHMMSSFF) == 4){
+				$endH = intval($endHHMMSSFF[0]);
+				$endM = intval($endHHMMSSFF[1]);
+				$endS = intval($endHHMMSSFF[2]);
+				$endF = intval($endHHMMSSFF[3]);
+			} else {
+				$endH =   !empty($_REQUEST["endHours"])     ? $_REQUEST["endHours"]     : 0;
+				$endM =   !empty($_REQUEST["endMinutes"])   ? $_REQUEST["endMinutes"]   : 0;
+				$endS =   !empty($_REQUEST["endSeconds"])   ? $_REQUEST["endSeconds"]   : 0;
+				$endF =   !empty($_REQUEST["endFrames"])    ? $_REQUEST["endFrames"]    : 0;
+			}
 
 			$start = $startF + $fps*($startS + 60*$startM + 3600*$startH);
 			$end = $endF + $fps*($endS + 60*$endM + 3600*$endH);

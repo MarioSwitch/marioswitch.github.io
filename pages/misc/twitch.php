@@ -14,11 +14,11 @@
 		<h1>Twitch</h1>
 		<p>
 			Ci-dessous, un <i>hall of fame</i> des spectateurs de ma chaîne Twitch.<br>
-			Cette page a été mise à jour pour la dernière fois le 1<sup>er</sup> mai 2025.<br>
+			Cette page a été mise à jour pour la dernière fois le 13 juillet 2025.<br>
 		</p>
 		<h2>Mes 50 premiers followers</h2>
 		<p>
-			Ces personnes méritent d'avoir leur nom sur cette page pour m'avoir aidé à devenir affilié sur Twitch.<br>
+			Ces personnes méritent d'avoir leur nom sur cette page pour m'avoir aidé à devenir affilié Twitch et à débloquer les badges VIP.<br>
 		</p>
 		<table class="table-hidden">
 			<tr>
@@ -233,11 +233,6 @@
 			</tr>
 			<tr>
 				<td><?php echo rank(); ?></td>
-				<td><?php echoTwitchChannel("evian7250"); ?></td>
-				<td>24 avril 2025</td>
-			</tr>
-			<tr>
-				<td><?php echo rank(); ?></td>
 				<td><?php echoTwitchChannel("jerelith_"); ?></td>
 				<td>30 avril 2025</td>
 			</tr>
@@ -250,6 +245,21 @@
 				<td><?php echo rank(); ?></td>
 				<td><?php echoTwitchChannel("Dessmeon"); ?></td>
 				<td>30 avril 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("pimento__"); ?></td>
+				<td>11 mai 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("evian7250"); ?></td>
+				<td>7 juillet 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("EthanLink"); ?></td>
+				<td>9 juillet 2025</td>
 			</tr>
 			<tr>
 				<td><?php echo rank(); ?> - 50</td>
