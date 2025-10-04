@@ -57,7 +57,7 @@
 		<?php
 			$fps =    !empty($_REQUEST["fps"])          ? $_REQUEST["fps"]          : 60;
 
-			$startHHMMSSFF = !empty($_REQUEST["startHHMMSSFF"]) ? $_REQUEST["startHHMMSSFF"] : "00:00:00:00";
+			$startHHMMSSFF = !empty($_REQUEST["startHHMMSSFF"]) ? $_REQUEST["startHHMMSSFF"] : "";
 			$startHHMMSSFF = explode(":", $startHHMMSSFF);
 			if(count($startHHMMSSFF) == 4){
 				$startH = intval($startHHMMSSFF[0]);
@@ -71,7 +71,7 @@
 				$startF = !empty($_REQUEST["startFrames"])  ? $_REQUEST["startFrames"]  : 0;
 			}
 
-			$endHHMMSSFF = !empty($_REQUEST["endHHMMSSFF"]) ? $_REQUEST["endHHMMSSFF"] : "00:00:00:00";
+			$endHHMMSSFF = !empty($_REQUEST["endHHMMSSFF"]) ? $_REQUEST["endHHMMSSFF"] : "";
 			$endHHMMSSFF = explode(":", $endHHMMSSFF);
 			if(count($endHHMMSSFF) == 4){
 				$endH = intval($endHHMMSSFF[0]);

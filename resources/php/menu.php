@@ -55,7 +55,7 @@
 					<div class=\"item\"><a href=\"https://www.marioswitch.fr/pages/misc/speedrun.php\">Calculatrice de temps</a></div>
 				</div>
 				<div class=\"category\">Sous-domaines
-					<div class=\"item\"><a href=\"http://freedictions.marioswitch.fr/\">Freedictions</a> (v3)</div>
+					<div class=\"item\"><a href=\"https://predictions.marioswitch.fr\">Prédictions</a> (v2.1)</div>
 				</div>
 			</div>
 		");
