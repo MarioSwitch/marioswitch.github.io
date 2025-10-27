@@ -14,7 +14,7 @@
 		<h1>Twitch</h1>
 		<p>
 			Ci-dessous, un <i>hall of fame</i> des spectateurs de ma chaîne Twitch.<br>
-			Cette page a été mise à jour pour la dernière fois le 13 juillet 2025.<br>
+			Cette page a été mise à jour pour la dernière fois le 27 octobre 2025.<br>
 		</p>
 		<h2>Mes 50 premiers followers</h2>
 		<p>
@@ -22,12 +22,15 @@
 		</p>
 		<table class="table-hidden">
 			<tr>
+				<th colspan="3">Figé au 26 octobre 2025</th>
+			</tr>
+			<tr>
 				<th>Rang</th>
 				<th>Utilisateur</th>
 				<th>Date de follow</th>
 			</tr>
 			<tr>
-				<td><?php echo rank(); ?></td>
+				<td><?php echo rank(1); ?></td>
 				<td><?php echoTwitchChannel("monkeyyyman6"); ?></td>
 				<td>17 juin 2020</td>
 			</tr>
@@ -262,8 +265,20 @@
 				<td>9 juillet 2025</td>
 			</tr>
 			<tr>
-				<td><?php echo rank(); ?> - 50</td>
-				<td colspan="2"><i>Places libres<br><br>N'hésitez pas à <a href="https://www.twitch.tv/MarioSwitch2020">me suivre sur Twitch</a><br>afin de me soutenir et d'apparaître ici !</i></td>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("mdr300061"); ?></td>
+				<td>19 octobre 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("mujat__2t"); ?></td>
+				<td>25 octobre 2025</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("Genthesemare"); ?></td>
+				<td>26 octobre 2025</td>
+			</tr>
 		</table>
 	</body>
 </html>
