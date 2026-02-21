@@ -13,7 +13,7 @@
 		<?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-			Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 31 décembre 2025).<br>
+			Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 21 février 2026).<br>
 			Seuls les jeux comptabilisant plus de 30 heures sont mentionnés ici.<br>
 			Les jeux en surbrillance sont ceux auxquels je joue régulièrement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.<br>
 			Les jeux grisés ne sont plus mis à jour en raison de l'impossibilité de récupérer leur temps de jeu.
@@ -31,8 +31,8 @@
 				<td><?= rank(1); ?></td>
 				<td>The Longest Game Ever 2</td>
 				<td>Mobile</td>
-				<td>502 h <small>(31/12/2025)</small></td>
-				<td>+ 1 h <small>(26/11/2025)</small></td>
+				<td>505 h <small>(21/02/2026)</small></td>
+				<td>+ 3 h <small>(31/12/2025)</small></td>
 				<td>D'après les succès du jeu</td>
 			</tr>
 			<tr class="off">
@@ -55,12 +55,12 @@
 				<td><?= rank(); ?></td>
 				<td>Hatsune Miku: Project DIVA Mega Mix</td>
 				<td>PC, Switch</td>
-				<td>228:05 <small>(26/11/2025)</small></td>
-				<td>+ 1:48 <small>(04/10/2025)</small></td>
+				<td>229:35 <small>(21/02/2026)</small></td>
+				<td>+ 1:30 <small>(26/11/2025)</small></td>
 				<td>
 					<b>Comprend :</b>
 					<br>Hatsune Miku: Project DIVA Mega Mix (106:14)
-					<br>Hatsune Miku: Project DIVA Mega Mix+ (104:18)
+					<br>Hatsune Miku: Project DIVA Mega Mix+ (105:48)
 					<br>初音ミク Project DIVA MEGA39's (17:33)
 				</td>
 			</tr>
@@ -71,6 +71,18 @@
 				<td>203:00 <small>(13/07/2025)</small></td>
 				<td>+ 0:07 <small>(17/04/2023)</small></td>
 				<td></td>
+			</tr>
+			<tr class="highlight">
+				<td><?= rank(); ?></td>
+				<td>Fall Guys</td>
+				<td>PC, Switch</td>
+				<td>198:46 <small>(21/02/2026)</small></td>
+				<td>+ 30:12 <small>(31/12/2025)</small></td>
+				<td>
+					<b>Comprend :</b>
+					<br>PC (185:00)
+					<br>Switch (13:46)
+				</td>
 			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
@@ -100,24 +112,12 @@
 				<td>+ 1:38 <small>(17/04/2023)</small></td>
 				<td></td>
 			</tr>
-			<tr class="highlight">
-				<td><?= rank(); ?></td>
-				<td>Fall Guys</td>
-				<td>PC, Switch</td>
-				<td>168:34 <small>(31/12/2025)</small></td>
-				<td>+ 3:30 <small>(26/11/2025)</small></td>
-				<td>
-					<b>Comprend :</b>
-					<br>PC (154:48)
-					<br>Switch (13:46)
-				</td>
-			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
 				<td>Timberborn</td>
 				<td>PC</td>
-				<td>150:48 <small>(26/11/2025)</small></td>
-				<td>+ 0:06 <small>(04/10/2025)</small></td>
+				<td>150:54 <small>(21/02/2026)</small></td>
+				<td>+ 0:06 <small>(26/11/2025)</small></td>
 				<td></td>
 			</tr>
 			<tr>
@@ -172,20 +172,20 @@
 					<br>MarioSw. (37:04)
 				</td>
 			</tr>
+			<tr class="highlight">
+				<td><?= rank(); ?></td>
+				<td>NSFW Solitaire</td>
+				<td>PC</td>
+				<td>83:06 <small>(21/02/2026)</small></td>
+				<td>+ 7:30 <small>(31/12/2025)</small></td>
+				<td></td>
+			</tr>
 			<tr>
 				<td><?= rank(); ?></td>
 				<td>Super Mario Galaxy</td>
 				<td>Wii</td>
 				<td>76:15 <small>(13/07/2025)</small></td>
 				<td>+ 0:13 <small>(17/04/2023)</small></td>
-				<td></td>
-			</tr>
-			<tr class="highlight">
-				<td><?= rank(); ?></td>
-				<td>NSFW Solitaire</td>
-				<td>PC</td>
-				<td>75:36 <small>(31/12/2025)</small></td>
-				<td>+ 10:06 <small>(26/11/2025)</small></td>
 				<td></td>
 			</tr>
 			<tr>
@@ -279,8 +279,8 @@
 				<td><?= rank(); ?></td>
 				<td>Temps Perdu</td>
 				<td>Mobile</td>
-				<td>41:58 <small>(31/12/2025)</small></td>
-				<td>+ 0:04 <small>(04/10/2025)</small></td>
+				<td>43:36 <small>(21/02/2026)</small></td>
+				<td>+ 1:38 <small>(31/12/2025)</small></td>
 				<td></td>
 			</tr>
 			<tr>
@@ -289,6 +289,14 @@
 				<td>Switch</td>
 				<td>40:05 <small>(13/07/2025)</small></td>
 				<td>+ 0:06 <small>(31/12/2024)</small></td>
+				<td></td>
+			</tr>
+			<tr class="highlight">
+				<td><?= rank(); ?></td>
+				<td>Donkey Kong Bananza</td>
+				<td>Switch 2</td>
+				<td>40 h <small>(21/02/2026)</small></td>
+				<td>+ 40 h <small>(nouveau)</small></td>
 				<td></td>
 			</tr>
 			<tr>

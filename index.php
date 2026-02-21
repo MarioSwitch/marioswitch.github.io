@@ -135,14 +135,14 @@
 		</table>
 		<hr>
 		<p class="center">
-			<a href="https://youtube.com/channel/UCP6sft2CrLn148rBknFT8yQ"><img src="resources/svg/youtube.svg" alt="YouTube" width=45 height=30></a>
+			<a href="https://youtube.com/@MarioSwitch2020"><img src="resources/svg/youtube.svg" alt="YouTube" width=45 height=30></a>
 			<a href="https://twitch.tv/marioswitch2020"><img src="resources/svg/twitch.svg" alt="Twitch" width=50 height=50></a>
 			<a href="https://x.com/marioswitch2020"><img src="resources/svg/x.svg" alt="X (ex-Twitter)" width=40 height=40></a>
 			<a href="https://discord.gg/xEFsH6x"><img src="resources/svg/discord.svg" alt="Discord" width=50 height=40></a>
-			<a href="https://github.com/marioswitch"><img class="inverse" src="resources/svg/github.svg" alt="GitHub" width=40 height=40></a>
+			<a href="https://github.com/MarioSwitch"><img class="inverse" src="resources/svg/github.svg" alt="GitHub" width=40 height=40></a>
 			<a href="https://speedrun.com/MarioSwitch"><img src="https://www.speedrun.com/images/1st.png" alt="Speedrun.com" width=45 height=40></a>
 			<a href="https://play.google.com/store/apps/dev?id=6889444212492017160"><img src="resources/svg/google-play.svg" alt="Google Play" width="40" height="40"></a>
-			<br>2022-2025 MarioSwitch
+			<br>2022-2026 MarioSwitch
 		</p>
 	</body>
 </html>

@@ -56,6 +56,7 @@
 				</div>
 				<div class=\"category\">Sous-domaines
 					<div class=\"item\"><a href=\"https://predictions.marioswitch.fr\">Prédictions</a> (v2.1)</div>
+					<div class=\"item\"><a href=\"https://docs.marioswitch.fr\">Documentation</a></div>
 				</div>
 			</div>
 		");
