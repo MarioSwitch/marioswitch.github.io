@@ -14,8 +14,33 @@
 		<h1>Twitch</h1>
 		<p>
 			Ci-dessous, un <i>hall of fame</i> des spectateurs de ma chaîne Twitch.<br>
-			Cette page a été mise à jour pour la dernière fois le 27 octobre 2025.<br>
+			Cette page a été mise à jour pour la dernière fois le 14 mars 2026.<br>
 		</p>
+		<h2>Mes VIP</h2>
+		<p>
+			Ces personnes méritent d'avoir leur nom sur cette page pour avoir grandement contribué au développement de ma chaîne Twitch (spectateurs récurrents, raids...).<br>
+		</p>
+		<table class="table-hidden">
+			<tr>
+				<th>Rang</th>
+				<th>Utilisateur</th>
+				<th>Date de VIP</th>
+			</tr>
+			<tr>
+				<th colspan="2">Badges VIP débloqués (10)</th>
+				<th>8 mars 2026</th>
+			</tr>
+			<tr>
+				<td><?php echo rank(1); ?></td>
+				<td><?php echoTwitchChannel("undyne___"); ?></td>
+				<td>11 mars 2026</td>
+			</tr>
+			<tr>
+				<td><?php echo rank(); ?></td>
+				<td><?php echoTwitchChannel("EvaWally"); ?></td>
+				<td>13 mars 2026</td>
+			</tr>
+		</table>
 		<h2>Mes 50 premiers followers</h2>
 		<p>
 			Ces personnes méritent d'avoir leur nom sur cette page pour m'avoir aidé à devenir affilié Twitch et à débloquer les badges VIP.<br>

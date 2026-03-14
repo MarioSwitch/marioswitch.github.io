@@ -13,7 +13,7 @@
 		<?php insertMenu(); ?>
 		<h1>Jeux les plus joués</h1>
 		<p>
-			Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 21 février 2026).<br>
+			Ci-dessous la liste des jeux auxquels j'ai le plus joué (au 14 mars 2026).<br>
 			Seuls les jeux comptabilisant plus de 30 heures sont mentionnés ici.<br>
 			Les jeux en surbrillance sont ceux auxquels je joue régulièrement, et qui peuvent donc avoir leur temps de jeu grandement augmenté depuis la dernière mise à jour.<br>
 			Les jeux grisés ne sont plus mis à jour en raison de l'impossibilité de récupérer leur temps de jeu.
@@ -31,8 +31,8 @@
 				<td><?= rank(1); ?></td>
 				<td>The Longest Game Ever 2</td>
 				<td>Mobile</td>
-				<td>505 h <small>(21/02/2026)</small></td>
-				<td>+ 3 h <small>(31/12/2025)</small></td>
+				<td>506 h <small>(14/03/2026)</small></td>
+				<td>+ 1 h <small>(21/02/2026)</small></td>
 				<td>D'après les succès du jeu</td>
 			</tr>
 			<tr class="off">
@@ -55,12 +55,12 @@
 				<td><?= rank(); ?></td>
 				<td>Hatsune Miku: Project DIVA Mega Mix</td>
 				<td>PC, Switch</td>
-				<td>229:35 <small>(21/02/2026)</small></td>
-				<td>+ 1:30 <small>(26/11/2025)</small></td>
+				<td>230:05 <small>(14/03/2026)</small></td>
+				<td>+ 0:30 <small>(21/02/2026)</small></td>
 				<td>
 					<b>Comprend :</b>
+					<br>Hatsune Miku: Project DIVA Mega Mix+ (106:18)
 					<br>Hatsune Miku: Project DIVA Mega Mix (106:14)
-					<br>Hatsune Miku: Project DIVA Mega Mix+ (105:48)
 					<br>初音ミク Project DIVA MEGA39's (17:33)
 				</td>
 			</tr>
@@ -76,11 +76,11 @@
 				<td><?= rank(); ?></td>
 				<td>Fall Guys</td>
 				<td>PC, Switch</td>
-				<td>198:46 <small>(21/02/2026)</small></td>
-				<td>+ 30:12 <small>(31/12/2025)</small></td>
+				<td>198:58 <small>(14/03/2026)</small></td>
+				<td>+ 0:12 <small>(21/02/2026)</small></td>
 				<td>
 					<b>Comprend :</b>
-					<br>PC (185:00)
+					<br>PC (185:12)
 					<br>Switch (13:46)
 				</td>
 			</tr>
@@ -116,8 +116,8 @@
 				<td><?= rank(); ?></td>
 				<td>Timberborn</td>
 				<td>PC</td>
-				<td>150:54 <small>(21/02/2026)</small></td>
-				<td>+ 0:06 <small>(26/11/2025)</small></td>
+				<td>151:00 <small>(14/03/2026)</small></td>
+				<td>+ 0:06 <small>(21/02/2026)</small></td>
 				<td></td>
 			</tr>
 			<tr>
@@ -176,8 +176,8 @@
 				<td><?= rank(); ?></td>
 				<td>NSFW Solitaire</td>
 				<td>PC</td>
-				<td>83:06 <small>(21/02/2026)</small></td>
-				<td>+ 7:30 <small>(31/12/2025)</small></td>
+				<td>86:24 <small>(14/03/2026)</small></td>
+				<td>+ 3:18 <small>(21/02/2026)</small></td>
 				<td></td>
 			</tr>
 			<tr>
@@ -217,6 +217,14 @@
 				<td>Switch</td>
 				<td>63:41 <small>(13/07/2025)</small></td>
 				<td>Aucun <small>(31/12/2024)</small></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><?= rank(); ?></td>
+				<td>Donkey Kong Bananza</td>
+				<td>Switch 2</td>
+				<td>60 h <small>(14/03/2026)</small></td>
+				<td>+ 20 h <small>(21/02/2026)</small></td>
 				<td></td>
 			</tr>
 			<tr>
@@ -289,14 +297,6 @@
 				<td>Switch</td>
 				<td>40:05 <small>(13/07/2025)</small></td>
 				<td>+ 0:06 <small>(31/12/2024)</small></td>
-				<td></td>
-			</tr>
-			<tr class="highlight">
-				<td><?= rank(); ?></td>
-				<td>Donkey Kong Bananza</td>
-				<td>Switch 2</td>
-				<td>40 h <small>(21/02/2026)</small></td>
-				<td>+ 40 h <small>(nouveau)</small></td>
 				<td></td>
 			</tr>
 			<tr>
