@@ -55,8 +55,7 @@
 			<input style="width:100px;" type="reset" value="Réinitialiser" onclick="window.location.href='speedrun.php'">
 		</form>
 		<?php
-			$fps =    !empty($_REQUEST["fps"])          ? $_REQUEST["fps"]          : 60;
-
+			$fps           = !empty($_REQUEST["fps"])           ? $_REQUEST["fps"]           : 60;
 			$startHHMMSSFF = !empty($_REQUEST["startHHMMSSFF"]) ? $_REQUEST["startHHMMSSFF"] : "";
 			$startHHMMSSFF = explode(":", $startHHMMSSFF);
 			if(count($startHHMMSSFF) == 4){
@@ -133,12 +132,35 @@
 				return $time;
 			}
 
+			function formatTime($hours, $minutes, $seconds): string{
+				$time = "";
+				if($hours){
+					$time .= $hours . "h ";
+				}
+				if($hours || $minutes){
+					$minutes = $hours ? str_pad($minutes, 2, "0", STR_PAD_LEFT) : $minutes;
+					$time .= $minutes . "m ";
+				}
+				
+				$seconds = ($hours || $minutes) ? str_pad($seconds, 2, "0", STR_PAD_LEFT) : $seconds;
+				$time .= $seconds . "s";
+				return $time;
+			}
+
 			echo "<p><i>
 				Starts at <b>" . formatTimeF($startH, $startM, $startS, $startF, $fps) . "</b>,
 				ends at <b>" . formatTimeF($endH, $endM, $endS, $endF, $fps) . "</b>,
 				total time: <b>" . formatTimeF($hours, $minutes, $seconds, $frames, $fps) . "</b> =
 				<b>" . formatTimeMS($hours, $minutes, $seconds, $frames, $fps) . "</b> @ $fps fps
 			</i></p>";
+
+			if($startF == 0 && $endF == 0){
+				echo "<p><i>
+				Starts at <b>" . formatTime($startH, $startM, $startS) . "</b>,
+				ends at <b>" . formatTime($endH, $endM, $endS) . "</b>,
+				total time: <b>" . formatTime($hours, $minutes, $seconds) . "</b>
+			</i></p>";
+			}
 		?>
 	</body>
 </html>

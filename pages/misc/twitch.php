@@ -14,12 +14,42 @@
 		<h1>Twitch</h1>
 		<p>
 			Ci-dessous, un <i>hall of fame</i> des spectateurs de ma chaîne Twitch.<br>
-			Cette page a été mise à jour pour la dernière fois le 14 mars 2026.<br>
+			Cette page a été mise à jour pour la dernière fois le 18 mai 2026.<br>
 		</p>
-		<h2>Mes VIP</h2>
-		<p>
-			Ces personnes méritent d'avoir leur nom sur cette page pour avoir grandement contribué au développement de ma chaîne Twitch (spectateurs récurrents, raids...).<br>
-		</p>
+		<h2>Mes abonnés</h2>
+		<table class="table-hidden float">
+			<tr>
+				<th>Rang</th>
+				<th>Utilisateur</th>
+				<th>Date d'abonnement</th>
+			</tr>
+			<tr>
+				<th colspan="2">Abonnements débloqués</th>
+				<th>16 mai 2026</th>
+			</tr>
+			<tr>
+				<td><?php echo rank(1); ?></td>
+				<td><?php echoTwitchChannel("Nico_Sinban"); ?></td>
+				<td>16 mai 2026</td>
+			</tr>
+		</table>
+		<table class="table-hidden">
+			<tr>
+				<th>Rang</th>
+				<th>Utilisateur</th>
+				<th>Durée d'abonnement</th>
+			</tr>
+			<tr>
+				<th colspan="2">Maximum théorique</th>
+				<th>1 mois</th>
+			</tr>
+			<tr>
+				<td><?php echo rank(1); ?></td>
+				<td><?php echoTwitchChannel("Nico_Sinban"); ?></td>
+				<td>1 mois</td>
+			</tr>
+		</table>
+		<h2 class="float-clear">Mes VIP</h2>
 		<table class="table-hidden">
 			<tr>
 				<th>Rang</th>
@@ -42,9 +72,6 @@
 			</tr>
 		</table>
 		<h2>Mes 50 premiers followers</h2>
-		<p>
-			Ces personnes méritent d'avoir leur nom sur cette page pour m'avoir aidé à devenir affilié Twitch et à débloquer les badges VIP.<br>
-		</p>
 		<table class="table-hidden">
 			<tr>
 				<th colspan="3">Figé au 26 octobre 2025</th>
